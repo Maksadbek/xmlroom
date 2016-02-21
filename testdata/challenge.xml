@@ -1,0 +1,1735 @@
+<?xml version="1.0" encoding="utf-8"?>
+<housing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Properties.xsd">
+	<member>
+		<estateAgentID>3166</estateAgentID>
+		<items>
+
+			<item>
+				<uniqueobjectid>530cb1a554ab6afb28e9c9c8</uniqueobjectid>
+				<street>Osseweistraat</street>
+				<houseNumber><![CDATA[ 40 ]]>></houseNumber>
+				<houseNumberAddtion></houseNumberAddtion>
+				<postalCode>3023DD</postalCode>
+				<City>Rotterdam</City>
+				<SubArea>Delfshaven</SubArea>
+				<houseType>2</houseType>
+				<nieuwbouw>0</nieuwbouw>
+				<furnished>1</furnished>
+				<minprice><![CDATA[   595 ]]></minprice>
+				<NroOfRooms>1</NroOfRooms>
+				<NroOfLivingRooms>2</NroOfLivingRooms>
+				<Projectnaam></Projectnaam>
+				<WoningtypeInProject></WoningtypeInProject>
+				<Available>2015-11-01</Available>
+				<insertDate>2015-10-20</insertDate>
+				<description_nl><![CDATA[Mooi 2-kamerappartement in Rotterdam Delfshaven beschikbaar voor short stay (6-10 maanden). Het appartement is gelegen aan de Osseweistraat, op enkele minuten fietsen van het centrum en het Erasmus MC. De historische haven van Delfshaven, het openbaar vervoer en populaire restaurants, cafés en supermarkten zijn op loopafstand. Het appartement is gelegen in het souterrain van het pand.
+
+Omschrijving:
+
+- Woonkamer (23m2) met open, volledig uitgeruste keuken en toegang tot de tuin. De woonkamer is onder andere voorzien van een bankstel, eettafel met stoelen. 
+
+- Volledig uitgeruste keuken met kookplaat, afzuigkap, koelkast en een set basis kook- en eetgerei. 
+
+- Gescheiden slaapkamer (11m2) met tweepersoonsbed en kast.
+
+- Badkamer met bad, toilet en wastafel.
+
+- Het appartement is gelegen in het souterrain en is bereikbaar vanuit de woonkamer van de eigenaar van het pand (die erboven woont). De eigenaar is een vriendelijke vrouwelijke docent die op zoek is naar een sociale tijdelijke huurder. 
+
+Voorwaarden:
+
+- De maandelijkse huur bedraagt € 595,00  incl. gas, water en elektra, internet en gemeentelijke belastingen. 
+
+- De borg staat gelijk aan 1 maand huur.
+
+- Geschikt voor 1 persoon, inschrijving is mogelijk.
+
+- De huurperiode is tijdelijk met minimaal 6 maanden en maximaal 10 maanden. 
+
+- Er zijn geen bemiddelingskosten van toepassing. De eenmalige administratiekosten zijn gelijk aan € 250,00 excl. BTW. 
+
+Geïnteresseerd?
+
+- Voordat je een bezichtiging kan inplannen moet je ingeschreven staan op de website van Studyrent. De inschrijving is geheel gratis. 
+
+- Na je inschrijving kan je ons het beste op ons kantoornummer bellen om een bezichtiging in te plannen. Als alternatief kan je ons na de inschrijving ook een reactie sturen, dan zullen wij contact met je opnemen.]]></description_nl>
+				<description_en><![CDATA[Nice 2 room apartment in Rotterdam Delfshaven available for short stay (6-10 months). It is located at the Osseweistraat, only a few cycling minutes away from the city centre and the Erasmus Medical Centre. The historic harbour (Delfshaven) as well as public transport connections and popular restaurants, bars and supermarkets are in walking distance. The apartment is located in the souterrain of the building.
+
+Description: 
+
+- Living room (23m2) with open, fully equipped  kitchen and access to the garden. The living room is among others equipped with a couch and a dining table with chairs. 
+
+- Fully equipped kitchen with gas cooker, exhaust, fridge and a set of basic cooking and eating utensils. 
+
+- Separate bedroom (11m2)  with double bed and closet. 
+
+- Bathroom with bathtub, toilet and washing basin. 
+
+- The apartment is situated in the souterrain and is accessible through the living room of the owner of the house (who is living above). The house owner is a friendly Dutch female teacher who is looking for a social short stay tenant. 
+
+Conditions: 
+
+- The monthly rent equals € 595,00 and includes gas, water and electricity expenses as well as internet and local taxes. 
+
+- The deposit equals 1 month rent. 
+
+- Suitable for 1 person, registration possible. 
+
+- The renting period is temporary with a minimum renting period of 6 months and a maximum renting period of 10 months.
+
+- There is no agency commission. We will charge one-time administrative costs of € 250,00 excl. 21 % VAT.  
+
+Interested?
+
+- Before scheduling a viewing for this rental you need to subscribe yourself on the website of Studyrent. The subscription is entirely free. 
+
+- After your subscription, it is best to give us a call on our office number to schedule a viewing. Alternatively, you can send us a reaction after your subscription and we will contact you.  
+]]></description_en>
+				<description_fr></description_fr>
+				<description_de></description_de>
+				<description_es></description_es>
+				<description_it></description_it>
+				<photos>
+	
+					<photo>http://studyrent.nl/media/photos/cons_530cb1a554ab6afb28e9c9c8_0.02196700 1393827015.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_530cb1a554ab6afb28e9c9c8_0.26826000 1393827032.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_530cb1a554ab6afb28e9c9c8_0.55877200 1393827021.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_530cb1a554ab6afb28e9c9c8_0.18648300 1393827017.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_530cb1a554ab6afb28e9c9c8_0.39812000 1393827019.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_530cb1a554ab6afb28e9c9c8_0.95303200 1393827012.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_530cb1a554ab6afb28e9c9c8_0.52141800 1393827023.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_530cb1a554ab6afb28e9c9c8_0.73269700 1393827025.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_530cb1a554ab6afb28e9c9c8_0.03741500 1393827030.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_530cb1a554ab6afb28e9c9c8_0.71568900 1393827062.jpg</photo>
+		
+				</photos>
+				<updatePhotos>0</updatePhotos>
+				<pdf></pdf>
+				<imageslider>0</imageslider>
+				<size_m2>39</size_m2>
+				<numberOfBathrooms>0</numberOfBathrooms>
+				<contractLentgh_months></contractLentgh_months>
+				<minContractLentgh_months></minContractLentgh_months>
+				<buildYear></buildYear>
+				<Parking>0</Parking>
+				<bath>0</bath>
+				<separateShower>0</separateShower>
+				<lift>0</lift>
+				<garden>1</garden>
+				<gardenLigging></gardenLigging>
+				<gardenSizeM2>0</gardenSizeM2>
+				<roofTerrass>0</roofTerrass>
+				<roofTerrassLigging></roofTerrassLigging>
+				<roofTerrassSizeM2>0</roofTerrassSizeM2>
+				<balcony>0</balcony>
+				<BalconyLigging></BalconyLigging>
+				<BalconySizeM2>0</BalconySizeM2>
+				<swimmingPool>0</swimmingPool>
+				<airConditioning>0</airConditioning>
+				<firePlace>0</firePlace>
+				<garage>0</garage>
+				<cellar>0</cellar>
+				<publicTransportQualityID>0</publicTransportQualityID>
+				<showhouseNumber>0</showhouseNumber>
+				<groundFloor>0</groundFloor>
+				<floorQuality>0000000</floorQuality>
+				<rentIncluded>111111</rentIncluded>
+				<huislijn>0</huislijn><houselink>1</houselink><properazzi>1</properazzi><enormo>1</enormo><woningennet>1</woningennet><kamerlink>1</kamerlink><expatica>1</expatica><brixter>1</brixter><jaap>0</jaap><huisvoormij>1</huisvoormij><huizenzoeker>1</huizenzoeker><kamernl>1</kamernl><speurders>0</speurders><hierismijnhuis>1</hierismijnhuis><hierismijnhuiskamer>1</hierismijnhuiskamer><mansion>1</mansion><mitula>1</mitula><huurprofielen>1</huurprofielen><huurstunt>1</huurstunt><iamexpat>1</iamexpat>
+			</item>
+	
+			<item>
+				<uniqueobjectid>550c4ea854ab6abf4e1dc6ae</uniqueobjectid>
+				<street>Noordeinde</street>
+				<houseNumber><![CDATA[ 48 ]]></houseNumber>
+				<houseNumberAddtion></houseNumberAddtion>
+				<postalCode>3061EN</postalCode>
+				<City>Rotterdam</City>
+				<SubArea>Kralingen-Crooswijk</SubArea>
+				<houseType>2</houseType>
+				<nieuwbouw>0</nieuwbouw>
+				<furnished>1</furnished>
+				<minprice><![CDATA[ 795   ]]></minprice>
+				<NroOfRooms>1</NroOfRooms>
+				<NroOfLivingRooms>1</NroOfLivingRooms>
+				<Projectnaam></Projectnaam>
+				<WoningtypeInProject></WoningtypeInProject>
+				<Available>2015-11-01</Available>
+				<insertDate>2015-10-26</insertDate>
+				<description_nl><![CDATA[In 2015 nieuw gerenoveerde gemeubileerde studio in hartje Kralingen te huur! De supermarkt, tram, metro en de Kralingse Plas zijn allemaal op korte loopafstand te vinden. Binnen 5-10 minuten zijn de Erasmus Universiteit en het centrum gemakkelijk te bereiken. De studio is deel van een modern complex voor (internationale) studenten, young professionals en expats met totaal 16 eenheden. 
+
+Omschrijving:
+
+- Studio met een oppervlakte van 25m2, gelegen op de eerste verdieping van het pand. 
+
+- Hoge kwaliteit afgewerkte separate keuken met stenen blad, kookplaat, afzuigkap, combimagnetron en een koel-vriescombinatie. 
+
+- Moderne badkamer met grote witte en antracieten tegels. Voorzien van een douche, toilet en wastafel. 
+
+- De volgende meubilering zal aanwezig zijn: tweepersoonsbed met matras (1,40m), kledingkast, bank, salontafel, studeer/eettafel met stoelen, lampen, gordijnen/jaloezieën, boekenkast, schoenenrek en een tv-meubel. 
+
+- De studio is voorzien van vloerbedekking en raambekleding. 
+
+- De studio heeft vloerverwarming, nieuwe dubbele beglazing en is zeer goed geïsoleerd. 
+
+- Gedeelde tuin met zitmogelijkheden en ruimte om te barbecueën.
+
+- Gedeelde wasruimte met geïnstalleerde wasmachine en droger (tegen betaling).  
+
+Voorwaarden:
+
+- De maandelijkse huur bedraagt € 795,00 inclusief gas, water en elektra,  tv en snel internet. 
+
+- De borg staat gelijk aan 1 maand huur.
+
+- De minimale huurperiode is 12 maanden. 
+
+- Geschikt voor 1 persoon, inschrijving is mogelijk.
+
+- Er zijn geen bemiddelingskosten van toepassing. De eenmalige administratiekosten zijn gelijk aan € 250,00 excl. BTW. 
+
+Geïnteresseerd?
+
+- Voordat je een bezichtiging kan inplannen moet je ingeschreven staan op de website van Studyrent. De inschrijving is geheel gratis. 
+
+- Na je inschrijving kan je ons het beste op ons kantoornummer bellen om een bezichtiging in te plannen. Als alternatief kan je ons na de inschrijving ook een reactie sturen, dan zullen wij contact met je opnemen.
+]]></description_nl>
+				<description_en><![CDATA[In 2015 newly renovated, furnished studio in the heart of Kralingen for rent! The supermarket, tram and metro connection as well as the lake Kralingse Plas are lcoated in short walking distance. Within just 5-10 minutes you can reach the Erasmus University and the city centre of Rotterdam. The studio is part of a modern complex for (internationals) students, young professionals and expats with 16 units in total. 
+
+Description: 
+
+- Studio with a surface of 25m2, situated on the first floor of the building. 
+
+- High-quality separate kitchen with a stone top, cooker, hood, microwave-oven combination and a fridge-freezer combination. 
+
+- Modern bathroom with large white and anthracite tiles. It is equipped with a shower, toilet and a washing basin.
+
+- The following furniture is included: a 1,40m wide bed with mattress, closet, couch, coffee table, study/dining table with chairs, lamps, curtains/blinds, bookshelf, shoe rack and tv-sideboard. 
+
+- The studio is equipped with flooring and window coverings.
+
+- The studio has floor heating, new double glazing windows and is very-well isolated.
+
+- Shared garden which offers seating accommodation and a place to barbeque. 
+
+- Shared washing room with installed washing machine and dryer (paid usage). 
+
+Conditions: 
+
+- The monthly rent equals € 795,00 and includes gas, water electricity, tv and high speed internet. 
+
+- The deposit equals 1 month rent. 
+
+- The minimum renting period is 12 months. 
+
+- Suitable for 1 person only. Registration is possible. 
+
+- There is no agency commission. We will charge one-time administrative costs of € 250,00 excl. 21 % VAT.  
+
+Interested?
+
+- Before scheduling a viewing for this rental you need to subscribe yourself on the website of Studyrent. The subscription is entirely free. 
+
+- After your subscription, it is best to give us a call on our office number to schedule a viewing. Alternatively, you can send us a reaction after your subscription and we will contact you.  ]]></description_en>
+				<description_fr></description_fr>
+				<description_de></description_de>
+				<description_es></description_es>
+				<description_it></description_it>
+				<photos>
+	
+					<photo>http://studyrent.nl/media/photos/cons_550c4ea854ab6abf4e1dc6ae_0.30970900 1445867141.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_550c4ea854ab6abf4e1dc6ae_0.19300200 1445867144.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_550c4ea854ab6abf4e1dc6ae_0.98114400 1445867141.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_550c4ea854ab6abf4e1dc6ae_0.71369600 1445867142.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_550c4ea854ab6abf4e1dc6ae_0.47264200 1445867143.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_550c4ea854ab6abf4e1dc6ae_0.09130400 1445867164.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_550c4ea854ab6abf4e1dc6ae_0.82936300 1445867162.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_550c4ea854ab6abf4e1dc6ae_0.58154100 1445867163.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_550c4ea854ab6abf4e1dc6ae_0.16261000 1426870063.jpg</photo>
+		
+				</photos>
+				<updatePhotos>0</updatePhotos>
+				<pdf></pdf>
+				<imageslider>0</imageslider>
+				<size_m2>25</size_m2>
+				<numberOfBathrooms>1</numberOfBathrooms>
+				<contractLentgh_months></contractLentgh_months>
+				<minContractLentgh_months></minContractLentgh_months>
+				<buildYear></buildYear>
+				<Parking>0</Parking>
+				<bath>0</bath>
+				<separateShower>0</separateShower>
+				<lift>0</lift>
+				<garden>0</garden>
+				<gardenLigging></gardenLigging>
+				<gardenSizeM2>0</gardenSizeM2>
+				<roofTerrass>0</roofTerrass>
+				<roofTerrassLigging></roofTerrassLigging>
+				<roofTerrassSizeM2>0</roofTerrassSizeM2>
+				<balcony>0</balcony>
+				<BalconyLigging></BalconyLigging>
+				<BalconySizeM2>0</BalconySizeM2>
+				<swimmingPool>0</swimmingPool>
+				<airConditioning>0</airConditioning>
+				<firePlace>0</firePlace>
+				<garage>0</garage>
+				<cellar>0</cellar>
+				<publicTransportQualityID>0</publicTransportQualityID>
+				<showhouseNumber>0</showhouseNumber>
+				<groundFloor>0</groundFloor>
+				<floorQuality>0000000</floorQuality>
+				<rentIncluded>111111</rentIncluded>
+				<huislijn>0</huislijn><houselink>1</houselink><properazzi>1</properazzi><enormo>1</enormo><woningennet>1</woningennet><kamerlink>1</kamerlink><expatica>1</expatica><brixter>1</brixter><jaap>0</jaap><huisvoormij>1</huisvoormij><huizenzoeker>1</huizenzoeker><kamernl>1</kamernl><speurders>0</speurders><hierismijnhuis>1</hierismijnhuis><hierismijnhuiskamer>1</hierismijnhuiskamer><mansion>1</mansion><mitula>1</mitula><huurprofielen>1</huurprofielen><huurstunt>1</huurstunt><iamexpat>1</iamexpat>
+			</item>
+	
+			<item>
+				<uniqueobjectid>550c520854ab6a65511dc6ae</uniqueobjectid>
+				<street>Noordeinde</street>
+				<houseNumber><![CDATA[ 56 ]]></houseNumber>
+				<houseNumberAddtion></houseNumberAddtion>
+				<postalCode>3061EN</postalCode>
+				<City>Rotterdam</City>
+				<SubArea>Kralingen-Crooswijk</SubArea>
+				<houseType>2</houseType>
+				<nieuwbouw>0</nieuwbouw>
+				<furnished>1</furnished>
+				<minprice><![CDATA[  795  ]]></minprice>
+				<NroOfRooms>1</NroOfRooms>
+				<NroOfLivingRooms>1</NroOfLivingRooms>
+				<Projectnaam></Projectnaam>
+				<WoningtypeInProject></WoningtypeInProject>
+				<Available>2015-12-01</Available>
+				<insertDate>2015-11-04</insertDate>
+				<description_nl><![CDATA[Recentelijk gerenoveerde gemeubileerde studio in hartje Kralingen te huur! De supermarkt, tram, metro en de Kralingse Plassen zijn allemaal op korte loopafstand te vinden. Binnen 5-10 minuten zijn de Erasmus Universiteit en het centrum gemakkelijk te bereiken. De studio is deel van een modern complex voor (internationale) studenten, young professionals en expats met totaal 16 eenheden. 
+
+
+Omschrijving:
+
+- Studio met eigen balkon en een oppervlakte van 23m2, gelegen op de eerste verdieping van het pand. 
+
+- Hoge kwaliteit afgewerkte separate keuken met stenen blad, kookplaat, afzuigkap, combimagnetron en een koel-vriescombinatie. 
+
+- Moderne badkamer met grote witte en antracieten tegels. Voorzien van een douche, toilet en wastafel. 
+
+- De volgende meubilering zal aanwezig zijn: tweepersoonsbed met matras (1,40m), kledingkast, bank, salontafel, studeer/eettafel met stoelen, lampen, gordijnen/jaloezieën, boekenkast, schoenenrek en een tv-meubel. 
+
+- De studio zal voorzien zijn van een laminaatvloer. 
+
+- De studio heeft vloerverwarming, nieuwe dubbele beglazing en is zeer goed geïsoleerd. Het heeft dan ook een Energielabel A. 
+
+- Gedeelde tuin met zitmogelijkheden en ruimte om te barbecueën.
+
+- Gedeelde wasruimte met geïnstalleerde wasmachine en droger.  
+
+
+Voorwaarden:
+
+- De maandelijkse huur bedraagt € 795,00 incl. gas, water en elektra,  tv en snel internet. 
+
+- De borg staat gelijk aan 1 maand huur.
+
+- De minimale huurperiode is 12 maanden. 
+
+- Geschikt voor 1 persoon, inschrijving is mogelijk.
+
+- Er zijn geen bemiddelingskosten van toepassing. De eenmalige administratiekosten zijn gelijk aan € 250,00 excl. BTW. 
+
+
+Geïnteresseerd?
+
+- Voordat je een bezichtiging kan inplannen moet je ingeschreven staan op de website van Studyrent. De inschrijving is geheel gratis. 
+
+- Na je inschrijving kan je ons het beste op ons kantoornummer bellen om een bezichtiging in te plannen. Als alternatief kan je ons na de inschrijving ook een reactie sturen, dan zullen wij contact met je opnemen.
+]]></description_nl>
+				<description_en><![CDATA[Recently renovated, furnished studio in the heart of Kralingen for rent! The supermarket, tram and metro connection as well as the lake Kralingse Plassen are located in short walking distance. Within just 5-10 minutes you can reach the Erasmus University and the city centre of Rotterdam. The studio is part of a modern complex for (internationals) students, young professionals and expats with 16 units in total. 
+
+
+Description: 
+
+- Studio with own balcony and a surface of 23m2, situated on the first floor of the building. 
+
+- High-quality separate kitchen with a stone top, cooker, hood, microwave-oven combination and a fridge-freezer combination. 
+
+- Modern bathroom with large white and anthracite tiles. It is equipped with a shower, toilet and a washing basin.
+
+- The following furniture is included: a 1,40m wide bed with mattress, closet, couch, coffee table, study/dining table with chairs, lamps, curtains/blinds, bookshelf, shoe rack and tv-sideboard. 
+
+- The studio will be equipped with modern laminate flooring. 
+
+- The studio has floor heating, new double glazing windows and is very-well isolated. Therefore it has energy label A. 
+
+- Shared garden which offers seating accommodation and a place to barbecue. 
+
+- Shared washing room with installed washing machine and dryer. 
+
+
+Conditions: 
+
+- The monthly rent equals € 795,00 and includes gas, water electricity, tv and high speed internet. 
+
+- The deposit equals 1 month rent. 
+
+- The minimum renting period is 12 months. 
+
+- Suitable for 1 person only. Registration is possible. 
+
+- There is no agency commission. We will charge one-time administrative costs of € 250,00 excl. 21 % VAT.  
+
+
+Interested?
+
+- Before scheduling a viewing for this rental you need to subscribe yourself on the website of Studyrent. The subscription is entirely free. 
+
+- After your subscription, it is best to give us a call on our office number to schedule a viewing. Alternatively, you can send us a reaction after your subscription and we will contact you.  ]]></description_en>
+				<description_fr></description_fr>
+				<description_de></description_de>
+				<description_es></description_es>
+				<description_it></description_it>
+				<photos>
+	
+					<photo>http://studyrent.nl/media/photos/cons_550c520854ab6a65511dc6ae_0.75289700 1446625560.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_550c520854ab6a65511dc6ae_0.88389000 1446625562.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_550c520854ab6a65511dc6ae_0.56546200 1446625564.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_550c520854ab6a65511dc6ae_0.12748800 1446625567.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_550c520854ab6a65511dc6ae_0.02675600 1446625569.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_550c520854ab6a65511dc6ae_0.89012000 1446625570.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_550c520854ab6a65511dc6ae_0.20977000 1426870906.jpg</photo>
+		
+				</photos>
+				<updatePhotos>1</updatePhotos>
+				<pdf></pdf>
+				<imageslider>0</imageslider>
+				<size_m2>23</size_m2>
+				<numberOfBathrooms>1</numberOfBathrooms>
+				<contractLentgh_months></contractLentgh_months>
+				<minContractLentgh_months></minContractLentgh_months>
+				<buildYear></buildYear>
+				<Parking>0</Parking>
+				<bath>0</bath>
+				<separateShower>0</separateShower>
+				<lift>0</lift>
+				<garden>0</garden>
+				<gardenLigging></gardenLigging>
+				<gardenSizeM2>0</gardenSizeM2>
+				<roofTerrass>0</roofTerrass>
+				<roofTerrassLigging></roofTerrassLigging>
+				<roofTerrassSizeM2>0</roofTerrassSizeM2>
+				<balcony>1</balcony>
+				<BalconyLigging></BalconyLigging>
+				<BalconySizeM2>0</BalconySizeM2>
+				<swimmingPool>0</swimmingPool>
+				<airConditioning>0</airConditioning>
+				<firePlace>0</firePlace>
+				<garage>0</garage>
+				<cellar>0</cellar>
+				<publicTransportQualityID>0</publicTransportQualityID>
+				<showhouseNumber>0</showhouseNumber>
+				<groundFloor>0</groundFloor>
+				<floorQuality>0000000</floorQuality>
+				<rentIncluded>111111</rentIncluded>
+				<huislijn>0</huislijn><houselink>1</houselink><properazzi>1</properazzi><enormo>1</enormo><woningennet>1</woningennet><kamerlink>1</kamerlink><expatica>1</expatica><brixter>1</brixter><jaap>0</jaap><huisvoormij>1</huisvoormij><huizenzoeker>1</huizenzoeker><kamernl>1</kamernl><speurders>0</speurders><hierismijnhuis>1</hierismijnhuis><hierismijnhuiskamer>1</hierismijnhuiskamer><mansion>1</mansion><mitula>1</mitula><huurprofielen>1</huurprofielen><huurstunt>1</huurstunt><iamexpat>1</iamexpat>
+			</item>
+	
+			<item>
+				<uniqueobjectid>55e9680c54ab6af6103b1a08</uniqueobjectid>
+				<street>Gashouderstraat</street>
+				<houseNumber><![CDATA[ 9 ]]></houseNumber>
+				<houseNumberAddtion>4</houseNumberAddtion>
+				<postalCode>3061EH</postalCode>
+				<City>Rotterdam</City>
+				<SubArea>Kralingen-Crooswijk</SubArea>
+				<houseType>4</houseType>
+				<nieuwbouw>0</nieuwbouw>
+				<furnished>1</furnished>
+				<minprice><![CDATA[    600  ]]></minprice>
+				<NroOfRooms>1</NroOfRooms>
+				<NroOfLivingRooms>1</NroOfLivingRooms>
+				<Projectnaam></Projectnaam>
+				<WoningtypeInProject></WoningtypeInProject>
+				<Available>2014-01-01</Available>
+				<insertDate>2015-10-20</insertDate>
+				<description_nl><![CDATA[Ruime gemeubileerde kamer boven de Art Gallery Kralingen te huur. De Erasmus Universiteit is te bereiken binnen 5 minuten fietsen en de supermarkt Albert Heijn is net om de hoek. Het centrum van Rotterdam is te bereiken door middel van de dichtbij gelegen tramstop en metrostation. De Kralingse Plas is op loopafstand.
+
+Omschrijving:
+
+- Ruime kamer (30m2). De kamer is voorzien van net meubilair, zoals een bed, kledingkast, tafel en bankstel.
+
+- Gedeelde, volledig uitgeruste design keuken met grote koelkast, vaatwasser, kookplaat en oven. Tevens is kook- en eetgerei ook aanwezig.
+
+- Twee recentelijk gerenoveerde badkamers, elk met 2 toiletten en een douche.
+
+- De keuken en twee badkamers worden gedeeld met 5 andere huurders (mannelijk en vrouwelijke internationale studenten) en wordt wekelijks schoongemaakt. Elke badkamer wordt met 2-3 bewoners gedeeld, waarbij mannelijke en vrouwelijke bewoners een eigen badkamer hebben. 
+
+- Een wasmachine is aanwezig.
+
+Voorwaarden:
+
+- De maandelijkse huur bedraagt € 600,00 inclusief gas, water, elektra, internet en gemeentelijke belastingen.
+
+- De borg is gelijk aan € 900,00.
+
+- De minimale huurperiode is 12 maanden.
+
+- Geschikt voor 1 persoon, inschrijving is mogelijk.
+
+- Er zijn geen bemiddelingskosten van toepassing. De eenmalige administratiekosten zijn gelijk aan € 250,00 excl. BTW. 
+
+Geïnteresseerd?
+
+- Voordat je een bezichtiging kan inplannen moet je ingeschreven staan op de website van Studyrent. De inschrijving is geheel gratis. 
+
+- Na je inschrijving kan je ons het beste op ons kantoornummer bellen om een bezichtiging in te plannen. Als alternatief kan je ons na de inschrijving ook een reactie sturen, dan zullen wij contact met je opnemen.]]></description_nl>
+				<description_en><![CDATA[Spacious furnished room above the Art Gallery Kralingen for rent. Located at the Gashouderstraat, the Erasmus University is reachable within 5 minutes cycling and the supermarket Albert Heijn can be found around the corner. The city centre can be reached within minutes through the nearby tram and metro connections. The popular lake ‘Kralingse Plas’ is situated in walking distance.
+
+Description:
+
+- Spacious room (30m2). The room is equipped with neat furniture such as a bed, closet, table, sofa.
+
+- Shared, fully equipped, design kitchen with large fridge, dishwasher, cooker and oven as well as a set of cooking and eating utensils.
+
+- Two recently renovated bathrooms, each containing 2 toilets and a shower.
+
+- The kitchen and two bathrooms are shared with 5 other tenants (male and female international students) and cleaned weekly. Each bathroom is shared with 2-3 other tenants, whereby male and female tenants have their own bathroom. 
+
+- A washing machine is available.
+
+Conditions:
+
+- The monthly rent equals € 600,00 including gas, water and electricity expenses as well as internet and local taxes.
+
+- The deposit equals € 900,00.
+
+- The minimum renting period is 12 months.
+
+- Suitable for 1 person, registration possible.
+
+- There is no agency commission. We will charge one-time administrative costs of € 250,00 excl. 21 % VAT.  
+
+Interested?
+
+- Before scheduling a viewing for this rental you need to subscribe yourself on the website of Studyrent. The subscription is entirely free. 
+
+- After your subscription, it is best to give us a call on our office number to schedule a viewing. Alternatively, you can send us a reaction after your subscription and we will contact you.  ]]></description_en>
+				<description_fr></description_fr>
+				<description_de></description_de>
+				<description_es></description_es>
+				<description_it></description_it>
+				<photos>
+	
+					<photo>http://studyrent.nl/media/photos/cons_55e9680c54ab6af6103b1a08_0.96039700 1441361062.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55e9680c54ab6af6103b1a08_0.68151700 1441361060.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55e9680c54ab6af6103b1a08_0.25592400 1441361061.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55e9680c54ab6af6103b1a08_0.83869700 1441361061.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55e9680c54ab6af6103b1a08_0.40771800 1441361062.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55e9680c54ab6af6103b1a08_0.06081700 1441361093.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55e9680c54ab6af6103b1a08_0.44708000 1441361093.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55e9680c54ab6af6103b1a08_0.31132600 1441361094.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55e9680c54ab6af6103b1a08_0.34270400 1441361095.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55e9680c54ab6af6103b1a08_0.16685300 1441361096.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55e9680c54ab6af6103b1a08_0.18008800 1441361097.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55e9680c54ab6af6103b1a08_0.16942700 1441361098.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55e9680c54ab6af6103b1a08_0.73326300 1441361076.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55e9680c54ab6af6103b1a08_0.48391900 1441361099.jpg</photo>
+		
+				</photos>
+				<updatePhotos>0</updatePhotos>
+				<pdf></pdf>
+				<imageslider>0</imageslider>
+				<size_m2>30</size_m2>
+				<numberOfBathrooms>1</numberOfBathrooms>
+				<contractLentgh_months></contractLentgh_months>
+				<minContractLentgh_months></minContractLentgh_months>
+				<buildYear></buildYear>
+				<Parking>0</Parking>
+				<bath>0</bath>
+				<separateShower>0</separateShower>
+				<lift>0</lift>
+				<garden>0</garden>
+				<gardenLigging></gardenLigging>
+				<gardenSizeM2>0</gardenSizeM2>
+				<roofTerrass>0</roofTerrass>
+				<roofTerrassLigging></roofTerrassLigging>
+				<roofTerrassSizeM2>0</roofTerrassSizeM2>
+				<balcony>0</balcony>
+				<BalconyLigging></BalconyLigging>
+				<BalconySizeM2>0</BalconySizeM2>
+				<swimmingPool>0</swimmingPool>
+				<airConditioning>0</airConditioning>
+				<firePlace>0</firePlace>
+				<garage>0</garage>
+				<cellar>0</cellar>
+				<publicTransportQualityID>0</publicTransportQualityID>
+				<showhouseNumber>0</showhouseNumber>
+				<groundFloor>0</groundFloor>
+				<floorQuality>0000000</floorQuality>
+				<rentIncluded>111101</rentIncluded>
+				<huislijn>0</huislijn><houselink>1</houselink><properazzi>1</properazzi><enormo>1</enormo><woningennet>1</woningennet><kamerlink>1</kamerlink><expatica>1</expatica><brixter>1</brixter><jaap>0</jaap><huisvoormij>1</huisvoormij><huizenzoeker>1</huizenzoeker><kamernl>1</kamernl><speurders>0</speurders><hierismijnhuis>1</hierismijnhuis><hierismijnhuiskamer>1</hierismijnhuiskamer><mansion>1</mansion><mitula>1</mitula><huurprofielen>1</huurprofielen><huurstunt>1</huurstunt><iamexpat>1</iamexpat>
+			</item>
+	
+			<item>
+				<uniqueobjectid>55ed63ae54ab6ab93ffbc318</uniqueobjectid>
+				<street>Bergse Dorpsstraat</street>
+				<houseNumber><![CDATA[ 22 ]]></houseNumber>
+				<houseNumberAddtion>B01</houseNumberAddtion>
+				<postalCode>3054GD</postalCode>
+				<City>Rotterdam</City>
+				<SubArea>Hillegersberg-Schiebroek</SubArea>
+				<houseType>2</houseType>
+				<nieuwbouw>0</nieuwbouw>
+				<furnished>1</furnished>
+				<minprice><![CDATA[850   ]]></minprice>
+				<NroOfRooms>1</NroOfRooms>
+				<NroOfLivingRooms>1</NroOfLivingRooms>
+				<Projectnaam></Projectnaam>
+				<WoningtypeInProject></WoningtypeInProject>
+				<Available>2016-01-01</Available>
+				<insertDate>2015-09-07</insertDate>
+				<description_nl><![CDATA[Geheel gemeubileerde studio met prachtig uitzicht op de Bergse Plas te huur gelegen in de wijk Rotterdam Hillegersberg. Het appartement is gelegen aan de populaire Bergse Dorpsstraat, op maar 50 meter afstand van de plas en omringd door diverse cafés, restaurants en boetieks. Tevens is de Albert Heijn op loopafstand. Het centrum kan binnen 15 minuten bereikt worden met de fiets of met een directe tramverbinding die voor de deur stopt. De Erasmus Universiteit is op 15-20 minuten fietsafstand. 
+
+
+Omschrijving:
+
+- Studio op de tweede verdieping aan de voorzijde. Voorzien van onder andere een zitgedeelte, tv, eettafel, tweepersoonsbed en een kast. 
+
+-  Half open keuken voorzien van een combimagnetron, koelkast, kookplaat en divers eet- en kookgerei. Tevens is er een wasmachine. 
+
+- Badkamer met douche en wastafel. 
+
+- Gescheiden toilet. 
+
+- De studio is volledig gemeubileerd met alle nodige huishoudelijke apparaten – perfect geschikt om zo in te trekken. 
+
+
+Voorwaarden:
+
+- De maandelijkse huur bedraagt € 850,00 inclusief gas, water en elektriciteit.
+
+- De borg staat gelijk aan 1 maand huur.
+
+- De minimale huurperiode is 12 maanden.
+
+- Geschikt voor 1 persoon, inschrijving is mogelijk.
+
+- De eenmalige administratiekosten zijn gelijk aan € 250,00 excl. BTW. Er zijn geen bemiddelingskosten van toepassing. 
+
+
+Geïnteresseerd?
+
+- Voordat je een bezichtiging kan inplannen moet je ingeschreven staan op de website van Studyrent. De inschrijving is geheel gratis
+
+- Na je inschrijving kan je ons het beste op ons kantoornummer bellen om een bezichtiging in te plannen. Als alternatief kan je ons na de inschrijving ook een reactie sturen, dan zullen wij contact met je opnemen.]]></description_nl>
+				<description_en><![CDATA[Fully furnished studio with a stunning view over the lake "Bergse Plas" for rent. It is situated in the upscale area Rotterdam Hillegersberg at the popular Bergse Dorpsstraat, just 50 meters next to the waters and is surrounded by cafes, restaurants and boutiques. Also the Albert Heijn supermarket is reachable within a few moments. The city centre of Rotterdam can be reached within 15 minutes by bike or through the direct tram connection leaving in front of the doorstep. The Erasmus University can be reached within 15-20 minutes cycling.
+
+
+Description:
+
+- Studio on the second floor at the front side of the building. It is equipped with a lounge corner, television, dining table, double bed and a wardrobe.
+
+- Half open kitchen, among others equipped with a microwave-oven combination, a fridge, gas cooker as well as a set of cooking and eating utensils. Also a washing machine is installed.
+
+- Bathroom with shower and washing basin.
+
+- Separate toilet.
+
+- The studio is fully furnished and equipped with all necessary household equipment - perfectly suitable to move in with just your luggage.
+
+
+Conditions:
+
+- The monthly rent is € 850,00 including gas, water, electricity expenses.
+
+- The deposit is equal to 1 month rent.
+
+- The minimum renting period is 12 months. 
+
+- Suitable for 1 person, registration is possible.
+
+- There is no agency commission. We will charge one-time administrative costs of € 250,00 excl. 21 % VAT.  
+
+
+Interested?
+
+- Before scheduling a viewing for this rental you need to subscribe yourself on the website of Studyrent. The subscription is entirely free. 
+
+- After your subscription, it is best to give us a call on our office number to schedule a viewing. Alternatively, you can send us a reaction after your subscription and we will contact you.  ]]></description_en>
+				<description_fr></description_fr>
+				<description_de></description_de>
+				<description_es></description_es>
+				<description_it></description_it>
+				<photos>
+	
+					<photo>http://studyrent.nl/media/photos/cons_55ed63ae54ab6ab93ffbc318_0.97832500 1441621217.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55ed63ae54ab6ab93ffbc318_0.69978000 1441621219.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55ed63ae54ab6ab93ffbc318_0.11303900 1441621219.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55ed63ae54ab6ab93ffbc318_0.73621500 1441621216.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55ed63ae54ab6ab93ffbc318_0.33845600 1441621216.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55ed63ae54ab6ab93ffbc318_0.13381900 1441621217.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55ed63ae54ab6ab93ffbc318_0.48838500 1441621217.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55ed63ae54ab6ab93ffbc318_0.40398500 1441621220.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55ed63ae54ab6ab93ffbc318_0.92631000 1441621220.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55ed63ae54ab6ab93ffbc318_0.59112800 1441621218.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55ed63ae54ab6ab93ffbc318_0.45195300 1441621221.jpg</photo>
+		
+				</photos>
+				<updatePhotos>0</updatePhotos>
+				<pdf></pdf>
+				<imageslider>0</imageslider>
+				<size_m2>30</size_m2>
+				<numberOfBathrooms>1</numberOfBathrooms>
+				<contractLentgh_months></contractLentgh_months>
+				<minContractLentgh_months></minContractLentgh_months>
+				<buildYear></buildYear>
+				<Parking>0</Parking>
+				<bath>0</bath>
+				<separateShower>0</separateShower>
+				<lift>0</lift>
+				<garden>0</garden>
+				<gardenLigging></gardenLigging>
+				<gardenSizeM2>0</gardenSizeM2>
+				<roofTerrass>0</roofTerrass>
+				<roofTerrassLigging></roofTerrassLigging>
+				<roofTerrassSizeM2>0</roofTerrassSizeM2>
+				<balcony>0</balcony>
+				<BalconyLigging></BalconyLigging>
+				<BalconySizeM2>0</BalconySizeM2>
+				<swimmingPool>0</swimmingPool>
+				<airConditioning>0</airConditioning>
+				<firePlace>0</firePlace>
+				<garage>0</garage>
+				<cellar>0</cellar>
+				<publicTransportQualityID>0</publicTransportQualityID>
+				<showhouseNumber>0</showhouseNumber>
+				<groundFloor>0</groundFloor>
+				<floorQuality>0000000</floorQuality>
+				<rentIncluded>111001</rentIncluded>
+				<huislijn>0</huislijn><houselink>1</houselink><properazzi>1</properazzi><enormo>1</enormo><woningennet>1</woningennet><kamerlink>1</kamerlink><expatica>1</expatica><brixter>1</brixter><jaap>0</jaap><huisvoormij>1</huisvoormij><huizenzoeker>1</huizenzoeker><kamernl>1</kamernl><speurders>0</speurders><hierismijnhuis>1</hierismijnhuis><hierismijnhuiskamer>1</hierismijnhuiskamer><mansion>1</mansion><mitula>1</mitula><huurprofielen>1</huurprofielen><huurstunt>1</huurstunt><iamexpat>1</iamexpat>
+			</item>
+	
+			<item>
+				<uniqueobjectid>560e4e1954ab6a7002af67c1</uniqueobjectid>
+				<street>Oostzeedijk</street>
+				<houseNumber><![CDATA[ 104 ]]></houseNumber>
+				<houseNumberAddtion>N</houseNumberAddtion>
+				<postalCode>3063BG</postalCode>
+				<City>Rotterdam</City>
+				<SubArea>Kralingen-Crooswijk</SubArea>
+				<houseType>2</houseType>
+				<nieuwbouw>0</nieuwbouw>
+				<furnished>0</furnished>
+				<minprice><![CDATA[   739]]></minprice>
+				<NroOfRooms>1</NroOfRooms>
+				<NroOfLivingRooms>1</NroOfLivingRooms>
+				<Projectnaam></Projectnaam>
+				<WoningtypeInProject></WoningtypeInProject>
+				<Available>2015-11-01</Available>
+				<insertDate>2015-10-20</insertDate>
+				<description_nl><![CDATA[Moderne studio in het hart van Kralingen te huur. De Erasmus Universiteit is op loopafstand en het dichtbij zijnde openbaar vervoer is op steenworp afstand. Het centrum kan binnen 10 minuten bereikt worden op de fiets of met een directe openbaar vervoersverbinding. 
+
+Omschrijving: 
+
+- Lichte studio op de eerste verdieping aan de achterzijde van het pand. De studio is op het zuiden gelegen en is daarom heel licht. Ook kan men van een vrije uitzicht genieten die tot de Erasmus Brug gaat.
+
+- Moderne keuken met kookplaat, koelkast en combimagnetron. 
+
+- Badkamer met douche, toilet, wastafel en radiator. 
+
+- Er is een gedeelde wasmachine en droger aanwezig waar gratis gebruik van gemaakt kan worden. 
+
+- De studio is voorzien van laminaat vloer, luxa flex en verlichtingsarmaturen. 
+
+Voorwaarden:
+
+- De maandelijkse huur bedraagt € 739,55 inclusief gas, water en elektra. 
+
+- De borg staat gelijk aan 1 maand huur.
+
+- De minimale huurperiode is 12 maanden.
+
+- Geschikt voor 1 persoon, inschrijving is mogelijk.
+
+- De eenmalige administratiekosten zijn gelijk aan € 250,00 excl. BTW. Er zijn geen bemiddelingskosten van toepassing. 
+
+Geïnteresseerd?
+
+- Voordat je een bezichtiging kan inplannen moet je ingeschreven staan op de website van Studyrent. De inschrijving is geheel gratis
+
+- Na je inschrijving kan je ons het beste op ons kantoornummer bellen om een bezichtiging in te plannen. Als alternatief kan je ons na de inschrijving ook een reactie sturen, dan zullen wij contact met je opnemen.]]></description_nl>
+				<description_en><![CDATA[Modern studio in the heart of Kralingen for rent. The Erasmus University is in walking distance and the closest public transport connection is only moments away. The city centre can be reached within 10 minutes cycling or though the direct public transport connection. 
+
+Description:
+
+- Bright studio on the second floor at the back side of the building. The studio is south-facing, and therefore very bright. You have a wide view reaching to the Erasmus Bridge.
+
+- Modern kitchen with cooker, fridge and microwave-oven combination.
+
+- Bathroom with shower, toilet, washing basin and radiator.
+
+- Shared washing machine and dryer for free use available in the building.
+
+- The studio is equipped with laminate flooring, blinds and lamps.
+
+Conditions:
+
+- The monthly rent is € 739,55 and includes gas, water and electricity expenses.
+
+- The deposit is 1 month rent.
+
+- The minimum renting period is 12 month.
+
+- Suitable for 1 person, registration possible. 
+
+- There is no agency commission. We will charge one-time administrative costs of € 250,00 excl. 21 % VAT.  
+
+Interested?
+
+- Before scheduling a viewing for this rental you need to subscribe yourself on the website of Studyrent. The subscription is entirely free. 
+
+- After your subscription, it is best to give us a call on our office number to schedule a viewing. Alternatively, you can send us a reaction after your subscription and we will contact you.  ]]></description_en>
+				<description_fr></description_fr>
+				<description_de></description_de>
+				<description_es></description_es>
+				<description_it></description_it>
+				<photos>
+	
+					<photo>http://studyrent.nl/media/photos/cons_560e4e1954ab6a7002af67c1_0.23634600 1443778603.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_560e4e1954ab6a7002af67c1_0.37108500 1443778602.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_560e4e1954ab6a7002af67c1_0.06057200 1443778604.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_560e4e1954ab6a7002af67c1_0.08399300 1443778607.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_560e4e1954ab6a7002af67c1_0.74917800 1443778609.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_560e4e1954ab6a7002af67c1_0.52862900 1443778610.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_560e4e1954ab6a7002af67c1_0.96832700 1443778610.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_560e4e1954ab6a7002af67c1_0.59378700 1443778660.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_560e4e1954ab6a7002af67c1_0.69738900 1443778730.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_560e4e1954ab6a7002af67c1_0.16698700 1443778732.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_560e4e1954ab6a7002af67c1_0.22291500 1443778661.jpg</photo>
+		
+				</photos>
+				<updatePhotos>0</updatePhotos>
+				<pdf></pdf>
+				<imageslider>0</imageslider>
+				<size_m2>28</size_m2>
+				<numberOfBathrooms>1</numberOfBathrooms>
+				<contractLentgh_months></contractLentgh_months>
+				<minContractLentgh_months></minContractLentgh_months>
+				<buildYear></buildYear>
+				<Parking>0</Parking>
+				<bath>0</bath>
+				<separateShower>0</separateShower>
+				<lift>0</lift>
+				<garden>0</garden>
+				<gardenLigging></gardenLigging>
+				<gardenSizeM2>0</gardenSizeM2>
+				<roofTerrass>0</roofTerrass>
+				<roofTerrassLigging></roofTerrassLigging>
+				<roofTerrassSizeM2>0</roofTerrassSizeM2>
+				<balcony>0</balcony>
+				<BalconyLigging></BalconyLigging>
+				<BalconySizeM2>0</BalconySizeM2>
+				<swimmingPool>0</swimmingPool>
+				<airConditioning>0</airConditioning>
+				<firePlace>0</firePlace>
+				<garage>0</garage>
+				<cellar>0</cellar>
+				<publicTransportQualityID>0</publicTransportQualityID>
+				<showhouseNumber>0</showhouseNumber>
+				<groundFloor>0</groundFloor>
+				<floorQuality>0000000</floorQuality>
+				<rentIncluded>111001</rentIncluded>
+				<huislijn>0</huislijn><houselink>1</houselink><properazzi>1</properazzi><enormo>1</enormo><woningennet>1</woningennet><kamerlink>1</kamerlink><expatica>1</expatica><brixter>1</brixter><jaap>0</jaap><huisvoormij>1</huisvoormij><huizenzoeker>1</huizenzoeker><kamernl>1</kamernl><speurders>0</speurders><hierismijnhuis>1</hierismijnhuis><hierismijnhuiskamer>1</hierismijnhuiskamer><mansion>1</mansion><mitula>1</mitula><huurprofielen>1</huurprofielen><huurstunt>1</huurstunt><iamexpat>1</iamexpat>
+			</item>
+	
+			<item>
+				<uniqueobjectid>55c84abb54ab6a8567627899</uniqueobjectid>
+				<street>Willebrordusstraat</street>
+				<houseNumber><![CDATA[ 2 ]]></houseNumber>
+				<houseNumberAddtion></houseNumberAddtion>
+				<postalCode>3037TR</postalCode>
+				<City>Rotterdam</City>
+				<SubArea>Noord</SubArea>
+				<houseType>2</houseType>
+				<nieuwbouw>0</nieuwbouw>
+				<furnished>0</furnished>
+				<minprice>1150 </minprice>
+				<NroOfRooms>1</NroOfRooms>
+				<NroOfLivingRooms>4</NroOfLivingRooms>
+				<Projectnaam></Projectnaam>
+				<WoningtypeInProject></WoningtypeInProject>
+				<Available>2014-01-01</Available>
+				<insertDate>2015-10-20</insertDate>
+				<description_nl><![CDATA[Uniek, nieuw gerenoveerd 3-kamerappartement met 73m2 kelder in Rotterdam Noord te huur. Het appartement is gelegen aan de Willebrodusstraat, met om de hoek de populaire Bergweg waar diverse restaurants, bars, supermarkten en de tramstop te vinden zijn. Ook op loopafstand is het treinstation Rotterdam Noord. Met de fiets is het centrum binnen 10 minuten bereikbaar en de Erasmus Universiteit binnen zo’n 15 minuten. Het appartement bevindt zich op de begane grond van het pand. 
+
+
+Omschrijving: 
+
+- Lichte, ruime woonkamer van 70m2 met een half-open keuken. 
+
+- Open moderne keuken voorzien van een koel-vriescombinatie, kookplaat, afzuigkap en magnetron. 
+
+- Slaapkamer van 10m2.
+
+- Extra kamer van 6m2, ideaal als walk-in closet. 
+
+- 73m2 afgewerkte kelderruimte, verdeeld over 3 kamers. Bijvoorbeeld te gebruiken als hobbyruimte, werkruimte, opslagruimte of home-cinema. 
+
+- Moderne badkamer met grote tegels. De badkamer is voorzien van een douche, toilet, wastafel en radiator. 
+
+- Cv-ruimte met wasmachineaansluiting. 
+
+- Het appartement is voorzien van een laminaatvloer en gordijnen. Tevens heeft het appartement een energielabel A met nieuwe dubbele beglazing en een nieuwe Cv-installatie. 
+
+
+
+Voorwaarden:
+
+- De maandelijkse huur bedraagt € 1.150,00 exclusief gas, water en elektriciteit. 
+
+- De borg staat gelijk aan 1 maand huur.
+
+- De minimale huurperiode is 12 maanden.
+
+- Geschikt voor maximaal 1 persoon of een stel, inschrijving is mogelijk.
+
+- Er zijn geen bemiddelingskosten van toepassing. De eenmalige administratiekosten zijn gelijk aan € 250,00 excl. BTW.  Bij bewoning door twee personen worden € 50,00 excl. BTW extra aan administratiekosten gerekend.
+
+
+Geïnteresseerd?
+
+- Voordat je een bezichtiging kan inplannen moet je ingeschreven staan op de website van Studyrent. De inschrijving is geheel gratis. 
+
+- Na je inschrijving kan je ons het beste op ons kantoornummer bellen om een bezichtiging in te plannen. Als alternatief kan je ons na de inschrijving ook een reactie sturen, dan zullen wij contact met je opnemen.]]></description_nl>
+				<description_en><![CDATA[Unique, newly renovated 3 room apartment with a spacious 73m2 basement in Rotterdam Noord for rent. The apartment is situated at the Willebrordusstraat just around the corner of the popular Bergweg where you can find restaurants, bars, the supermarket and the tram station. In walking distance you will also find the train station Rotterdam Noord as well as the waters. By bike you reach the city centre within just 10 minutes and the Erasmus University within 15 minutes. The apartment is situated on the ground floor of the building.
+
+
+Description:
+
+- Bright, spacious living room of 70m2 with a semi separate-kitchen.
+
+- Open modern kitchen. It is equipped with a fridge/freezer, dishwasher, gas cooking plates, hood and a microwave. 
+
+- Bedroom of 10m2.
+
+- Extra room of 6m2, ideal as walk-in closet. 
+
+- Spacious, renovated basement of 73m2, separated in 3 rooms (all without window to the outside). Ideal for hobby activities, workspace, storage, the creation of a home cinema etc. 
+
+- Modern bathroom with large tiles. It is equipped with a bathtub, shower, toilet, washing basin and radiator.
+
+- Central heating room with washing machine connection. 
+
+- The apartment comes with modern laminate flooring and curtains and offers energy label A with new double glazing windows and a new central heating system.
+
+
+
+Conditions: 
+
+- The monthly rent equals € 1.150,00 excluding gas, water and electricity utilities. 
+
+- The deposit equals 1 month rent.
+
+- The minimum renting period is 12 months. 
+
+- Suitable for 1 person or a couple. Registration possible.
+
+- There is no agency commission. We will charge one-time administrative costs of € 250,00 excl. 21 % VAT.  When renting to 2 persons an additional € 50,00 excl. 21 % VAT will be charged.
+
+
+Interested?
+
+- Before scheduling a viewing for this rental you need to subscribe yourself on the website of Studyrent. The subscription is entirely free.
+
+- After your subscription, it is best to give us a call on our office number to schedule a viewing. Alternatively, you can send us a reaction after your subscription and we will contact you.]]></description_en>
+				<description_fr></description_fr>
+				<description_de></description_de>
+				<description_es></description_es>
+				<description_it></description_it>
+				<photos>
+	
+					<photo>http://studyrent.nl/media/photos/cons_55c84abb54ab6a8567627899_0.00584900 1444298963.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55c84abb54ab6a8567627899_0.84030700 1444298964.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55c84abb54ab6a8567627899_0.72581400 1444298966.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55c84abb54ab6a8567627899_0.18406900 1444298971.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55c84abb54ab6a8567627899_0.16748900 1444298959.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55c84abb54ab6a8567627899_0.44982200 1444299255.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55c84abb54ab6a8567627899_0.62885800 1444298961.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55c84abb54ab6a8567627899_0.46439100 1444298968.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55c84abb54ab6a8567627899_0.72920900 1444298969.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_55c84abb54ab6a8567627899_0.20130600 1439190745.jpg</photo>
+		
+				</photos>
+				<updatePhotos>0</updatePhotos>
+				<pdf></pdf>
+				<imageslider>0</imageslider>
+				<size_m2>164</size_m2>
+				<numberOfBathrooms>1</numberOfBathrooms>
+				<contractLentgh_months></contractLentgh_months>
+				<minContractLentgh_months></minContractLentgh_months>
+				<buildYear></buildYear>
+				<Parking>0</Parking>
+				<bath>0</bath>
+				<separateShower>0</separateShower>
+				<lift>0</lift>
+				<garden>0</garden>
+				<gardenLigging></gardenLigging>
+				<gardenSizeM2>0</gardenSizeM2>
+				<roofTerrass>0</roofTerrass>
+				<roofTerrassLigging></roofTerrassLigging>
+				<roofTerrassSizeM2>0</roofTerrassSizeM2>
+				<balcony>0</balcony>
+				<BalconyLigging></BalconyLigging>
+				<BalconySizeM2>0</BalconySizeM2>
+				<swimmingPool>0</swimmingPool>
+				<airConditioning>0</airConditioning>
+				<firePlace>0</firePlace>
+				<garage>0</garage>
+				<cellar>0</cellar>
+				<publicTransportQualityID>0</publicTransportQualityID>
+				<showhouseNumber>0</showhouseNumber>
+				<groundFloor>0</groundFloor>
+				<floorQuality>0000000</floorQuality>
+				<rentIncluded>000000</rentIncluded>
+				<huislijn>0</huislijn><houselink>1</houselink><properazzi>1</properazzi><enormo>1</enormo><woningennet>1</woningennet><kamerlink>1</kamerlink><expatica>1</expatica><brixter>1</brixter><jaap>0</jaap><huisvoormij>1</huisvoormij><huizenzoeker>1</huizenzoeker><kamernl>1</kamernl><speurders>0</speurders><hierismijnhuis>1</hierismijnhuis><hierismijnhuiskamer>1</hierismijnhuiskamer><mansion>1</mansion><mitula>1</mitula><huurprofielen>1</huurprofielen><huurstunt>1</huurstunt><iamexpat>1</iamexpat>
+			</item>
+	
+			<item>
+				<uniqueobjectid>56176cc454ab6a77387c1f5c</uniqueobjectid>
+				<street>Bernardus Gewinstraat</street>
+				<houseNumber><![CDATA[ 26 ]]></houseNumber>
+				<houseNumberAddtion>A</houseNumberAddtion>
+				<postalCode>3031SG</postalCode>
+				<City>Rotterdam</City>
+				<SubArea>Kralingen-Crooswijk</SubArea>
+				<houseType>2</houseType>
+				<nieuwbouw>0</nieuwbouw>
+				<furnished>1</furnished>
+				<minprice> 900</minprice>
+				<NroOfRooms>1</NroOfRooms>
+				<NroOfLivingRooms>3</NroOfLivingRooms>
+				<Projectnaam></Projectnaam>
+				<WoningtypeInProject></WoningtypeInProject>
+				<Available>2015-12-01</Available>
+				<insertDate>2015-10-09</insertDate>
+				<description_nl><![CDATA[Mooi gemeubileerd appartement gesitueerd tussen Kralingen en het centrum te huur. Het is gelegen aan de Bernardus Gewinstraat met diverse winkels, populaire bars en restaurants op korte loopafstand. Het centrum is binnen 5 minuten fietsen te bereiken en de Erasmus Universiteit binnen 10 minuten. Het 3-kamerappartement is gelegen op de eerste verdieping en biedt een balkon, tuin en een berging in de kelder.
+
+Omschrijving:
+
+- Lichte woonkamer met een oppervlakte van 19m2. Het is voorzien van een grote bank, eettafel met 4 stoelen, boekenkast en een tv-meubel.
+
+- Slaapkamer met een oppervlakte van 11m2 en een Frans balkon. De slaapkamer is voorzien van een tweepersoonsbed en wordt gescheiden van de woonkamer door middel van schuifdeuren.
+
+- Kleinere kamer van 6m2, welke ideaal te gebruiken is als kantoor of inloopkast.
+
+- Keuken met kookplaat, oven/magnetron combinatie, koelkast en geïnstalleerde wasmachine. Vanuit de keuken is er toegang tot het ruime balkon.
+
+- Balkon op het oosten met een oppervlakte van 6m2.
+
+- Nette badkamer met douche, toilet en wastafel.
+
+- Privé tuin met een oppervlakte van 25m2.
+
+- Privé berging in de kelder met een oppervlakte van 5m2, ideaal voor het stallen van fietsen.
+
+Voorwaarden:
+
+- De maandelijkse huur bedraagt € 900,00 exclusief gas, water en elektra.
+
+- De borg staat gelijk aan 2 maanden huur.
+
+- De minimale huurperiode is 6 maanden. De verhuurder zoekt een huurder wie de intentie heeft om 12 maanden en langer te blijven.
+
+- Geschikt voor 1-2 personen, inschrijving is mogelijk.
+
+- Er zijn geen bemiddelingskosten van toepassing. De eenmalige administratiekosten zijn gelijk aan € 250,00 excl. BTW. Bij bewoning door twee personen worden € 50,00 excl. BTW extra aan administratiekosten gerekend.
+
+Geïnteresseerd?
+
+- Voordat je een bezichtiging kan inplannen moet je ingeschreven staan op de website van Studyrent. De inschrijving is geheel gratis. 
+
+- Na je inschrijving kan je ons het beste op ons kantoornummer bellen om een bezichtiging in te plannen. Als alternatief kan je ons na de inschrijving ook een reactie sturen, dan zullen wij contact met je opnemen.]]></description_nl>
+				<description_en><![CDATA[Nice furnished apartment between Kralingen Crooswijk and the city centre for rent. It is located at the Bernardus Gewinstraat, where shops, popular bars and restaurants can be found in short walking distance. The city centre is just 5 minutes cycling away and the Erasmus University can be reached within less than 10 minutes cycling. The 3 room apartment is situated on the first floor and offers a balcony and garden as well as a storage space in the basement.
+
+Description:
+
+- Bright living room with a surface of 19m2. It is equipped with a large couch, dining table with 4 chairs, bookshelf and a sideboard.
+
+- Bedroom with a surface of 11m2 and a French balcony. The bedroom is equipped with a double bed and separated from the living room through sliding doors.
+
+- Smaller room of 6m2, which can be ideally used as office space or dressing room.
+
+- Kitchen with gas cooking plate, microwave-oven combination, fridge as well as an installed washing machine. From the kitchen there is access to the large balcony.
+
+- East-facing balcony of 6m2.
+
+- Cosy bathroom with a shower, toilet and washing basin.
+
+- Private garden with a surface of 25m2.
+
+- Private storage room in the basement with a surface of 5m2, ideal for storing your bike.
+
+Conditions:
+
+- The monthly rent equals € 900,00 excluding gas, water and electricity expenses.
+
+- The deposit is equal to 2 months rent.
+
+- The minimum renting period is 6 months. The landlord is looking for a tenant who has the intention of staying 12 months and longer.
+
+- Suitable for 1-2 person(s). Registration possible.
+
+- There is no agency commission. We will charge one-time administrative costs of € 250,00 excl. 21 % VAT. When renting to 2 persons an additional € 50,00 excl. 21 % VAT will be charged
+
+Interested?
+
+- Before scheduling a viewing for this rental you need to subscribe yourself on the website of Studyrent. The subscription is entirely free. 
+
+- After your subscription, it is best to give us a call on our office number to schedule a viewing. Alternatively, you can send us a reaction after your subscription and we will contact you.]]></description_en>
+				<description_fr></description_fr>
+				<description_de></description_de>
+				<description_es></description_es>
+				<description_it></description_it>
+				<photos>
+	
+					<photo>http://studyrent.nl/media/photos/cons_56176cc454ab6a77387c1f5c_0.07288300 1444376154.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_56176cc454ab6a77387c1f5c_0.74612500 1444376154.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_56176cc454ab6a77387c1f5c_0.62113500 1444376155.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_56176cc454ab6a77387c1f5c_0.32225300 1444376156.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_56176cc454ab6a77387c1f5c_0.21080700 1444376157.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_56176cc454ab6a77387c1f5c_0.05108900 1444376158.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_56176cc454ab6a77387c1f5c_0.86126000 1444376158.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_56176cc454ab6a77387c1f5c_0.57491400 1444376159.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_56176cc454ab6a77387c1f5c_0.36853500 1444376160.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_56176cc454ab6a77387c1f5c_0.08661000 1444376161.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_56176cc454ab6a77387c1f5c_0.79758200 1444376162.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_56176cc454ab6a77387c1f5c_0.28162900 1444376163.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_56176cc454ab6a77387c1f5c_0.76585500 1444376164.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_56176cc454ab6a77387c1f5c_0.66253400 1444376165.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_56176cc454ab6a77387c1f5c_0.15100500 1444376166.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_56176cc454ab6a77387c1f5c_0.95188700 1444376166.jpg</photo>
+		
+				</photos>
+				<updatePhotos>0</updatePhotos>
+				<pdf></pdf>
+				<imageslider>0</imageslider>
+				<size_m2>50</size_m2>
+				<numberOfBathrooms>1</numberOfBathrooms>
+				<contractLentgh_months></contractLentgh_months>
+				<minContractLentgh_months></minContractLentgh_months>
+				<buildYear></buildYear>
+				<Parking>0</Parking>
+				<bath>0</bath>
+				<separateShower>0</separateShower>
+				<lift>0</lift>
+				<garden>0</garden>
+				<gardenLigging></gardenLigging>
+				<gardenSizeM2>0</gardenSizeM2>
+				<roofTerrass>0</roofTerrass>
+				<roofTerrassLigging></roofTerrassLigging>
+				<roofTerrassSizeM2>0</roofTerrassSizeM2>
+				<balcony>1</balcony>
+				<BalconyLigging></BalconyLigging>
+				<BalconySizeM2>0</BalconySizeM2>
+				<swimmingPool>0</swimmingPool>
+				<airConditioning>0</airConditioning>
+				<firePlace>0</firePlace>
+				<garage>0</garage>
+				<cellar>0</cellar>
+				<publicTransportQualityID>0</publicTransportQualityID>
+				<showhouseNumber>0</showhouseNumber>
+				<groundFloor>0</groundFloor>
+				<floorQuality>0000000</floorQuality>
+				<rentIncluded>000000</rentIncluded>
+				<huislijn>0</huislijn><houselink>1</houselink><properazzi>1</properazzi><enormo>1</enormo><woningennet>1</woningennet><kamerlink>1</kamerlink><expatica>1</expatica><brixter>1</brixter><jaap>0</jaap><huisvoormij>1</huisvoormij><huizenzoeker>1</huizenzoeker><kamernl>1</kamernl><speurders>0</speurders><hierismijnhuis>1</hierismijnhuis><hierismijnhuiskamer>1</hierismijnhuiskamer><mansion>1</mansion><mitula>1</mitula><huurprofielen>1</huurprofielen><huurstunt>1</huurstunt><iamexpat>1</iamexpat>
+			</item>
+	
+			<item>
+				<uniqueobjectid>561baa1654ab6abf5ce38e71</uniqueobjectid>
+				<street>Pieter de Raadtstraat</street>
+				<houseNumber><![CDATA[ 67 ]]></houseNumber>
+				<houseNumberAddtion></houseNumberAddtion>
+				<postalCode>3033VD</postalCode>
+				<City>Rotterdam</City>
+				<SubArea>Centrum</SubArea>
+				<houseType>2</houseType>
+				<nieuwbouw>0</nieuwbouw>
+				<furnished>1</furnished>
+				<minprice><![CDATA[1295]]></minprice>
+				<NroOfRooms>2</NroOfRooms>
+				<NroOfLivingRooms>3</NroOfLivingRooms>
+				<Projectnaam></Projectnaam>
+				<WoningtypeInProject></WoningtypeInProject>
+				<Available>2016-02-01</Available>
+				<insertDate>2015-10-15</insertDate>
+				<description_nl><![CDATA[Ruim, compleet gemeubileerd appartement met twee slaapkamers gelegen op 5 minuten loopafstand van Rotterdam Centraal en beschikbaar vanaf 1 februari voor een periode van 12 maanden. Vanaf deze centrale locatie zijn het Erasmus MC en de Erasmus Universiteit in 10 en 15 minuten fietsen of met openbaar vervoer te bereiken. Het appartement is gelegen op de eerste etage van het pand. 
+
+
+Omschrijving: 
+
+- Ruime woonkamer van 41 m2 met open keuken en toegang tot het balkon. 
+
+- Balkon van 5m2 op het zuiden. 
+
+- Keuken met koelkast, vriezer, inductiekookplaat, afzuigkap, magnetronoven combinatie en divers keukengerei. 
+
+- Eerste slaapkamer van 12m2. 
+
+- Tweede slaapkamer van 12m2. Let op dat de tweede slaapkamer nu is gemeubileerd als een kantoorruimte. Deze ruimte kan indien gewenst worden ingericht als slaapkamer met een tweepersoonsbed (zonder extra kosten).
+
+- Badkamer met een inloopdouche, bad, toilet en wastafel. 
+
+- Opbergruimte met een wasmachine en droger. 
+
+- Extra, apart toilet. 
+
+- Het gehele appartement is uitgerust met vloerverwarming en is goed geïsoleerd met dubbele beglazing. Het heeft energielabel B. 
+
+- Het appartement wordt verhuurd in volledig gemeubileerde staat. Je kunt er dus zo intrekken met alleen een koffer. 
+
+
+Voorwaarden: 
+
+- De maandelijkse huur bedraagt € 1.295,00 exclusief gas, water en elektriciteit.
+
+- De borg staat gelijk aan 1 maand huur.
+
+- De huurperiode start 1 februari 2015 en duurt 12 maanden. De huurperiode is tijdelijk en beperkt tot een periode van 12 maanden. De eigenaar zal daarna terugkeren van een buitenlandse reis. Naar wens en in overleg met de eigenaar kan de huurperiode ook eerder dan 1 februari 2015 ingaan. 
+
+- Geschikt voor 1-2 personen, inschrijving is mogelijk.
+
+- Er zijn geen bemiddelingskosten van toepassing. De eenmalige administratiekosten zijn gelijk aan € 250,00 excl. BTW. Bij bewoning door twee personen worden € 50,00 excl. BTW extra aan administratiekosten gerekend.
+
+
+Geïnteresseerd?
+
+- Voordat je een bezichtiging kan inplannen moet je ingeschreven staan op de website van Studyrent. De inschrijving is geheel gratis. 
+
+- Na je inschrijving kan je ons het beste op ons kantoornummer bellen om een bezichtiging in te plannen. Als alternatief kan je ons na de inschrijving ook een reactie sturen, dan zullen wij contact met je opnemen.
+]]></description_nl>
+				<description_en><![CDATA[Spacious, fully furnished 2 bedroom apartment located in 5 minutes walking distance to Rotterdam Central Station available from the 1st of February for a period of 12 months. From this central location, the Erasmus MC and the Erasmus University can be reached in 10 and 15 minutes cycling or by public transport. The apartment is located on the 1st floor of the building.
+
+
+Description: 
+
+- Spacious living room of 41m2 with open kitchen and access to the balcony. 
+
+- South-facing balcony of 5m2. 
+
+- Kitchen with fridge, freezer, induction cooking fields, exhaust, microwave-oven combination as well as a set of cooking and eating utensils. 
+
+- First bedroom of 12m2. 
+
+- Second bedroom of 12m2. Note that the second bedroom is now furnished as an office, but that it will be furnished as a second bedroom upon wish, amongst others a two persons bed (at no extra expenses). 
+
+- Bathroom with walk-in shower, bathtub, toilet and washing basin.
+
+- Storage room with washing machine and dryer. 
+
+- Extra, separate toilet. 
+
+- The entire apartment is equipped with a floor heating system and is well isolated with double glazing windows. It has the energy label B. 
+
+- The apartment is rented out in fully furnished condition, so you can move in with your suitcase only. 
+
+
+Conditions: 
+
+- The monthly rent is € 1.295,00 excluding gas, water and electricity expenses. 
+
+- The deposit equals 1 month rent. 
+
+- The renting period starts on the 1st of February 2015 and lasts for a period of 12 months. The renting period is temporary and limited for a period of 12 months as the landlord will return from a trip from abroad thereafter. Upon wish and in consultation with the landlord, the rent may also commence earlier than the 1st of February 2015.
+
+- Suitable for 1-2 person(s). Registration is possible. 
+
+ - There is no agency commission. We will charge one-time administrative costs of € 250,00 excl. 21 % VAT.  When renting to 2 persons an additional € 50,00 excl. 21 % VAT will be charged.
+
+
+Interested?
+
+- Before scheduling a viewing for this rental you need to subscribe yourself on the website of Studyrent. The subscription is entirely free. 
+
+- After your subscription, it is best to give us a call on our office number to schedule a viewing. Alternatively, you can send us a reaction after your subscription and we will contact you.  ]]></description_en>
+				<description_fr></description_fr>
+				<description_de></description_de>
+				<description_es></description_es>
+				<description_it></description_it>
+				<photos>
+	
+					<photo>http://studyrent.nl/media/photos/cons_561baa1654ab6abf5ce38e71_0.24460600 1444655432.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_561baa1654ab6abf5ce38e71_0.99004200 1444655432.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_561baa1654ab6abf5ce38e71_0.45098100 1444655430.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_561baa1654ab6abf5ce38e71_0.44028800 1444655431.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_561baa1654ab6abf5ce38e71_0.71677400 1444655433.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_561baa1654ab6abf5ce38e71_0.20012100 1444655427.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_561baa1654ab6abf5ce38e71_0.16822600 1444655428.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_561baa1654ab6abf5ce38e71_0.01031200 1444655421.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_561baa1654ab6abf5ce38e71_0.86067600 1444655422.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_561baa1654ab6abf5ce38e71_0.69243800 1444655657.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_561baa1654ab6abf5ce38e71_0.13473100 1444655422.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_561baa1654ab6abf5ce38e71_0.12939000 1444655426.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_561baa1654ab6abf5ce38e71_0.49761400 1444655609.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_561baa1654ab6abf5ce38e71_0.53326300 1444655610.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_561baa1654ab6abf5ce38e71_0.21724800 1444655434.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_561baa1654ab6abf5ce38e71_0.98176300 1444655434.jpg</photo>
+		
+				</photos>
+				<updatePhotos>0</updatePhotos>
+				<pdf></pdf>
+				<imageslider>0</imageslider>
+				<size_m2>90</size_m2>
+				<numberOfBathrooms>1</numberOfBathrooms>
+				<contractLentgh_months></contractLentgh_months>
+				<minContractLentgh_months></minContractLentgh_months>
+				<buildYear></buildYear>
+				<Parking>0</Parking>
+				<bath>0</bath>
+				<separateShower>0</separateShower>
+				<lift>0</lift>
+				<garden>0</garden>
+				<gardenLigging></gardenLigging>
+				<gardenSizeM2>0</gardenSizeM2>
+				<roofTerrass>0</roofTerrass>
+				<roofTerrassLigging></roofTerrassLigging>
+				<roofTerrassSizeM2>0</roofTerrassSizeM2>
+				<balcony>1</balcony>
+				<BalconyLigging></BalconyLigging>
+				<BalconySizeM2>0</BalconySizeM2>
+				<swimmingPool>0</swimmingPool>
+				<airConditioning>0</airConditioning>
+				<firePlace>0</firePlace>
+				<garage>0</garage>
+				<cellar>0</cellar>
+				<publicTransportQualityID>0</publicTransportQualityID>
+				<showhouseNumber>0</showhouseNumber>
+				<groundFloor>0</groundFloor>
+				<floorQuality>0000000</floorQuality>
+				<rentIncluded>000000</rentIncluded>
+				<huislijn>0</huislijn><houselink>1</houselink><properazzi>1</properazzi><enormo>1</enormo><woningennet>1</woningennet><kamerlink>1</kamerlink><expatica>1</expatica><brixter>1</brixter><jaap>0</jaap><huisvoormij>1</huisvoormij><huizenzoeker>1</huizenzoeker><kamernl>1</kamernl><speurders>0</speurders><hierismijnhuis>1</hierismijnhuis><hierismijnhuiskamer>1</hierismijnhuiskamer><mansion>1</mansion><mitula>1</mitula><huurprofielen>1</huurprofielen><huurstunt>1</huurstunt><iamexpat>1</iamexpat>
+			</item>
+	
+			<item>
+				<uniqueobjectid>5457caa154ab6a045b94a503</uniqueobjectid>
+				<street>Katendrechtse Lagedijk</street>
+				<houseNumber><![CDATA[ 309 ]]></houseNumber>
+				<houseNumberAddtion>B</houseNumberAddtion>
+				<postalCode>3083GE</postalCode>
+				<City>Rotterdam</City>
+				<SubArea>Charlois</SubArea>
+				<houseType>2</houseType>
+				<nieuwbouw>0</nieuwbouw>
+				<furnished>0</furnished>
+				<minprice><![CDATA[ 795 ]]></minprice>
+				<NroOfRooms>3</NroOfRooms>
+				<NroOfLivingRooms>4</NroOfLivingRooms>
+				<Projectnaam></Projectnaam>
+				<WoningtypeInProject></WoningtypeInProject>
+				<Available>2016-01-01</Available>
+				<insertDate>2015-10-20</insertDate>
+				<description_nl><![CDATA[Royale 4-kamerappartement te huur in de leuke wijk Charlois  - ideaal voor 3 studenten! Het appartement is gelegen aan de gezellige Katendrechtse Lagedijk. Winkelcentrum Zuidplein en metrostation Maashaven zijn op ca. 10 minuten loopafstand te vinden. Ook is er een supermarkt en tramhalte in de directe omgeving te vinden. Naar het centrum van Rotterdam is het via de Maastunnel ca. 15 minuten fietsen. 
+
+
+Omschrijving 1e verdieping:
+
+- Woonkamer aan de voorzijde (22m²).
+
+- Slaapkamer aan de achterzijde (14m²).
+
+- Aparte keuken met koelkast, gaskookplaat en afzuigkap (6m²). De keuken biedt toegang naar het balkon.
+
+- Toilet. 
+
+
+Omschrijving 2e verdieping:
+
+- Slaapkamer aan de voorzijde (16m²).
+
+- Slaapkamer aan de achterzijde (14m²).
+
+- Badkamer met douche en wastafel (4m²).
+
+- Het appartement is voorzien van een laminaatvloer, gordijnen en verlichting. 
+
+- In 2012 is het appartement geheel gerenoveerd en biedt een energielabel A, dubbele beglazing en een Cv-installatie. 
+
+
+Voorwaarden:
+
+- De maandelijkse huur bedraagt € 795,00  excl. gas, water en elektriciteit.
+
+- De borg staat gelijk aan 1 maand huur.
+
+- De minimale huurperiode is 12 maanden.
+
+- Geschikt voor 1-3 personen, inschrijving is mogelijk.
+
+- Er zijn geen bemiddelingskosten van toepassing. De eenmalige administratiekosten zijn gelijk aan € 250,00 excl. BTW. Bij bewoning door meer personen worden € 50,00 excl. BTW per extra medebewoner aan administratiekosten gerekend.
+
+
+Geïnteresseerd?
+
+- Voordat je een bezichtiging kan inplannen moet je ingeschreven staan op de website van Studyrent. De inschrijving is geheel gratis. 
+
+- Na je inschrijving kan je ons het beste op ons kantoornummer bellen om een bezichtiging in te plannen. Als alternatief kan je ons na de inschrijving ook een reactie sturen, dan zullen wij contact met je opnemen.]]></description_nl>
+				<description_en><![CDATA[Spacious four room apartment for rent in the nice neighbourhood Charlois – ideal for 3 students! The apartment is located at the Katendrechtse Lagedijk. Shopping centre Zuidplein and metro station Maashaven are at ca. 10 minutes walking distance. The supermarket and the tram stop are in the direct surroundings of the apartment. By bike you can reach the city centre within 15 minutes using the Maastunnel. 
+
+
+Description of the first floor:
+
+- Living room at the front side (22m2).
+
+- Bedroom at the back side (22m2).
+
+- Separate kitchen equipped with a fridge, cooking plates and hood (6m2). The kitchens offers access to the balcony. 
+
+- Toilet.
+
+
+Description of the second floor:
+
+- Bedroom at the front side (16m2).
+
+- Bedroom at the back side (14m2).
+
+- Bathroom with shower and washing basin. 
+
+- The apartment is equipped with a laminate flooring, curtains and lighting. 
+
+- The apartment was completely renovated in 2012 and offers energy label A, double glazing windows and a central heating system. 
+
+
+Conditions: 
+
+- The monthly rent equals € 795,00 excluding gas, water and electricity utilities. 
+
+- The deposit equals 1 month rent. 
+
+- The minimum renting period is 12 months. 
+
+- Suitable for 1-3 people. Registration possible. 
+
+- There is no agency fee. We will charge one-time administrative costs of € 250,00 excl. 21 % VAT to the main tenant and if applicable € 50,00 excl. 21 % VAT of administrative costs for each co-tenant.
+
+
+Interested?
+
+- Before scheduling a viewing for this rental you need to subscribe yourself on the website of Studyrent. The subscription is entirely free. 
+
+- After your subscription, it is best to give us a call on our office number to schedule a viewing. Alternatively, you can send us a reaction after your subscription and we will contact you. 
+]]></description_en>
+				<description_fr></description_fr>
+				<description_de></description_de>
+				<description_es></description_es>
+				<description_it></description_it>
+				<photos>
+	
+					<photo>http://studyrent.nl/media/photos/cons_5457caa154ab6a045b94a503_0.77949800 1417515082.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5457caa154ab6a045b94a503_0.54957100 1417515083.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5457caa154ab6a045b94a503_0.06368300 1417515082.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5457caa154ab6a045b94a503_0.24199100 1417515079.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5457caa154ab6a045b94a503_0.99221200 1417515079.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5457caa154ab6a045b94a503_0.47060200 1417515081.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5457caa154ab6a045b94a503_0.84467500 1417515080.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5457caa154ab6a045b94a503_0.41493500 1417515084.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5457caa154ab6a045b94a503_0.26336100 1417515085.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5457caa154ab6a045b94a503_0.79354100 1417515086.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5457caa154ab6a045b94a503_0.35728100 1417515087.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5457caa154ab6a045b94a503_0.55523200 1417515149.jpg</photo>
+		
+				</photos>
+				<updatePhotos>0</updatePhotos>
+				<pdf></pdf>
+				<imageslider>0</imageslider>
+				<size_m2>100</size_m2>
+				<numberOfBathrooms>0</numberOfBathrooms>
+				<contractLentgh_months></contractLentgh_months>
+				<minContractLentgh_months></minContractLentgh_months>
+				<buildYear></buildYear>
+				<Parking>0</Parking>
+				<bath>0</bath>
+				<separateShower>0</separateShower>
+				<lift>0</lift>
+				<garden>0</garden>
+				<gardenLigging></gardenLigging>
+				<gardenSizeM2>0</gardenSizeM2>
+				<roofTerrass>0</roofTerrass>
+				<roofTerrassLigging></roofTerrassLigging>
+				<roofTerrassSizeM2>0</roofTerrassSizeM2>
+				<balcony>1</balcony>
+				<BalconyLigging></BalconyLigging>
+				<BalconySizeM2>0</BalconySizeM2>
+				<swimmingPool>0</swimmingPool>
+				<airConditioning>0</airConditioning>
+				<firePlace>0</firePlace>
+				<garage>0</garage>
+				<cellar>0</cellar>
+				<publicTransportQualityID>0</publicTransportQualityID>
+				<showhouseNumber>0</showhouseNumber>
+				<groundFloor>0</groundFloor>
+				<floorQuality>0000000</floorQuality>
+				<rentIncluded>000000</rentIncluded>
+				<huislijn>0</huislijn><houselink>1</houselink><properazzi>1</properazzi><enormo>1</enormo><woningennet>1</woningennet><kamerlink>1</kamerlink><expatica>1</expatica><brixter>1</brixter><jaap>0</jaap><huisvoormij>1</huisvoormij><huizenzoeker>1</huizenzoeker><kamernl>1</kamernl><speurders>0</speurders><hierismijnhuis>1</hierismijnhuis><hierismijnhuiskamer>1</hierismijnhuiskamer><mansion>1</mansion><mitula>1</mitula><huurprofielen>1</huurprofielen><huurstunt>1</huurstunt><iamexpat>1</iamexpat>
+			</item>
+	
+			<item>
+				<uniqueobjectid>5639ed6854ab6a387ed883c3</uniqueobjectid>
+				<street>Mauritsstraat</street>
+				<houseNumber><![CDATA[ 249 ]]></houseNumber>
+				<houseNumberAddtion>K</houseNumberAddtion>
+				<postalCode>3012CH</postalCode>
+				<City>Rotterdam</City>
+				<SubArea>Centrum</SubArea>
+				<houseType>2</houseType>
+				<nieuwbouw>0</nieuwbouw>
+				<furnished>0</furnished>
+				<minprice><![CDATA[ 839 ]]></minprice>
+				<NroOfRooms>1</NroOfRooms>
+				<NroOfLivingRooms>1</NroOfLivingRooms>
+				<Projectnaam></Projectnaam>
+				<WoningtypeInProject></WoningtypeInProject>
+				<Available>2015-12-01</Available>
+				<insertDate>2015-11-04</insertDate>
+				<description_nl><![CDATA[Zeer ruime, lichte studio in hartje centrum van Rotterdam!  Het appartement bevindt zich in een prachtig karakteristiek pand  gelegen aan de populaire Oude Binnenweg waar tal van boetiekjes, barretjes en restaurantjes te vinden zijn. De metro en tramstation zijn ook te vinden in de directe omgeving. Het Erasmus MC is op slechts 5 minuten fietsafstand en de Erasmus universiteit is met de fiets binnen ca. 15 minuten te bereiken. Rotterdam Centraal Station is te vinden op ca. 10 minuten loopafstand. 
+
+
+Omschrijving: 
+
+- Ruime, lichte studio van 34 m2. 
+
+- De open keuken is voorzien van een combi-magnetron, kookplaat met afzuigkap en een koelkast. 
+
+- Badkamer met douche, toilet, wastafel en wandradiator. 
+
+- Het appartement is voorzien van een laminaatvloer en luxaflex raambekleding.
+
+-  Er is een gedeelde wasruimte met wasmachine en droger aanwezig. 
+
+-  Het appartementencomplex biedt een leuke binnenplaats met zitgedeelte en een fietsenstalling.
+
+
+Voorwaarden:
+
+- De maandelijkse huur bedraagt € 839,85 inclusief  gas, water en elektriciteit.   
+
+- De borg staat gelijk aan 1 maand huur.
+
+- De minimale huurperiode is 12 maanden. 
+
+- Geschikt voor maximaal 1 persoon, inschrijving is mogelijk.
+
+- Er zijn geen bemiddelingskosten van toepassing. De eenmalige administratiekosten zijn gelijk aan € 250,00 excl. BTW. 
+
+
+Geïnteresseerd?
+
+- Voordat je een bezichtiging kan inplannen moet je ingeschreven staan op de website van Studyrent. De inschrijving is geheel gratis. 
+
+- Na je inschrijving kan je ons het beste op ons kantoornummer bellen om een bezichtiging in te plannen. Als alternatief kan je ons na de inschrijving ook een reactie sturen, dan zullen wij contact met je opnemen.]]></description_nl>
+				<description_en><![CDATA[Spacious, bright studio in the heart of city centre for rent! The apartment is situated at the Oude Binnenweg, a charming pedestrian zone of the city centre with popular restaurants, cafés, boutiques and shops. The metro and tram connection can be found in short walking distance. The Erasmus MC less than 5 minutes cycling away and the Erasmus University can be reached within 15 minutes cycling. Central station is a 10 minute walk away. 
+
+
+Description: 
+
+- A bright, spacious studio of 34 m2. 
+
+- The open kitchen comes equipped with a microwave-oven combination, cooking plates with exhaust and a fridge. 
+
+- Bathroom with shower, toilet, washing basin and radiator. 
+
+- The studio is equipped with laminate flooring and window covering.
+
+- There is a shared washing machine and dryer available. 
+
+- The apartment complex offers a nice shared backyard with seating accommodations and bike parking spaces.
+
+
+Conditions: 
+
+- The monthly rent equals € 839,85 and includes gas, water and electricity expenses. 
+
+- The deposit equals 1 month rent. 
+
+- The minimum renting period 12 month. 
+
+- Suitable for 1 person only. Registration is possible. 
+
+- There is no agency commission. We will charge one-time administrative costs of € 250,00 excl. 21 % VAT.  
+
+
+Interested?
+
+- Before scheduling a viewing for this rental you need to subscribe yourself on the website of Studyrent. The subscription is entirely free. 
+
+- After your subscription, it is best to give us a call on our office number to schedule a viewing. Alternatively, you can send us a reaction after your subscription and we will contact you.  ]]></description_en>
+				<description_fr></description_fr>
+				<description_de></description_de>
+				<description_es></description_es>
+				<description_it></description_it>
+				<photos>
+	
+					<photo>http://studyrent.nl/media/photos/cons_5639ed6854ab6a387ed883c3_0.36499700 1446637614.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5639ed6854ab6a387ed883c3_0.33424800 1446637555.png</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5639ed6854ab6a387ed883c3_0.80976700 1446637555.png</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5639ed6854ab6a387ed883c3_0.48660900 1446637554.png</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5639ed6854ab6a387ed883c3_0.78167700 1446637556.png</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5639ed6854ab6a387ed883c3_0.17054200 1446637557.png</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5639ed6854ab6a387ed883c3_0.19877000 1446637556.png</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5639ed6854ab6a387ed883c3_0.18755400 1446638224.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5639ed6854ab6a387ed883c3_0.79040600 1446637607.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5639ed6854ab6a387ed883c3_0.24288400 1446637609.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5639ed6854ab6a387ed883c3_0.59121500 1446637610.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5639ed6854ab6a387ed883c3_0.50736400 1446637612.jpg</photo>
+		
+					<photo>http://studyrent.nl/media/photos/cons_5639ed6854ab6a387ed883c3_0.45326100 1446637557.png</photo>
+		
+				</photos>
+				<updatePhotos>1</updatePhotos>
+				<pdf></pdf>
+				<imageslider>0</imageslider>
+				<size_m2>38</size_m2>
+				<numberOfBathrooms>1</numberOfBathrooms>
+				<contractLentgh_months></contractLentgh_months>
+				<minContractLentgh_months></minContractLentgh_months>
+				<buildYear></buildYear>
+				<Parking>0</Parking>
+				<bath>0</bath>
+				<separateShower>0</separateShower>
+				<lift>0</lift>
+				<garden>0</garden>
+				<gardenLigging></gardenLigging>
+				<gardenSizeM2>0</gardenSizeM2>
+				<roofTerrass>0</roofTerrass>
+				<roofTerrassLigging></roofTerrassLigging>
+				<roofTerrassSizeM2>0</roofTerrassSizeM2>
+				<balcony>0</balcony>
+				<BalconyLigging></BalconyLigging>
+				<BalconySizeM2>0</BalconySizeM2>
+				<swimmingPool>0</swimmingPool>
+				<airConditioning>0</airConditioning>
+				<firePlace>0</firePlace>
+				<garage>0</garage>
+				<cellar>0</cellar>
+				<publicTransportQualityID>0</publicTransportQualityID>
+				<showhouseNumber>0</showhouseNumber>
+				<groundFloor>0</groundFloor>
+				<floorQuality>0000000</floorQuality>
+				<rentIncluded>111001</rentIncluded>
+				<huislijn>0</huislijn><houselink>1</houselink><properazzi>1</properazzi><enormo>1</enormo><woningennet>1</woningennet><kamerlink>1</kamerlink><expatica>1</expatica><brixter>1</brixter><jaap>0</jaap><huisvoormij>1</huisvoormij><huizenzoeker>1</huizenzoeker><kamernl>1</kamernl><speurders>0</speurders><hierismijnhuis>1</hierismijnhuis><hierismijnhuiskamer>1</hierismijnhuiskamer><mansion>1</mansion><mitula>1</mitula><huurprofielen>1</huurprofielen><huurstunt>1</huurstunt><iamexpat>1</iamexpat>
+			</item>
+	
+		</items>
+	</member>
+</housing>

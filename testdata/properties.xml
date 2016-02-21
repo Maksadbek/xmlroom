@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by Eduard (EMF) -->
+<housing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Properties.xsd">
+	<member>
+		<!-- Voeg het Pararius ID van de makelaar hieronder toe -->
+		<estateAgentID>1</estateAgentID>
+		<items>
+			<item>
+			<!-- Elk adres moet een uniek nummer/ID hebben. Dit ID mag nooit veranderen ook niet als er bijvoorbeeld een prijs of ander item wordt aangepast --> 
+			<uniqueobjectid/>
+				<street/>
+				<!--Huisnummers moeten doorgegeven worden aan Pararius. Pararius zal deze huisnummers,indien gewenst, niet tonen aan bezoekers of wie dan ook. Verderop in dit document staat een veld <showhousenumber> waarmee dit kan worden aangegeven.--> 
+				<houseNumber>1</houseNumber>
+				<!-- Dit is de toevoeging op het huisnummer. Bijv: III of B -->  
+				<houseNumberAddtion/>
+				<!-- Postcode -->
+				<postalCode/>
+				<!-- City (plaatsnaam moet qua spelling exact overeenkomen met een van de plaatsnamen in cities.csv. SubArea is optional.  -->
+				<City/>
+				<!-- Wijk (optioneel) -->
+				<SubArea/>
+				<!--Woning type: 1=Woonhuis 2=Appartement 3=Garage 4=Kamer 5=Villa 6=Woonboot 7=Studio 8=Seniorenwoning -->
+				<!--Woning type: 9=Antikraak 10=Bungalow 11=Woon werkruimte -->
+				<houseType>1</houseType>
+				<!-- tenant: 0=geen voorkeur 1=voor bewoning door meerdere personen. Een hoofdhuurder. 
+ 2=voor bewoning door meerdere personen -->
+				<tenant>0</tenant>
+			 <!-- estateOwner: Statistieken automatisch versturen naar de eigenaar email address -->
+				<estateOwner/>
+			<!-- estateOwner stats: Statistieken versturen periode 1= wekelijks 2= maandelijks -->
+                                <stats>1</stats>   	
+				<!-- Oplevering: 0=gestoffeerd 1=gemeubileerd 3=adres kan met meubels worden opgeleverd maar ook zonder 4=kaal -->
+				<furnished>0</furnished>
+				<!-- Huurprijs per maand.-->
+				<minprice>1400</minprice>
+				<!-- prijs tonen -->
+				<hideprice>0</hideprice>
+				<!-- LET OP: Hieronder staat NrOfRooms, dit is het aantal slaapkamers! Als de makelaar met kamers werkt dan dient men automatisch altijd het getal 1 af te trekken van het aantal kamers ten einde tot het aantal slaapkamers te komen.
+BIJV: makelaarswebsite aantal kamers=2 DAN aantal slaapkamers=2-1=1 -->
+  				<NroOfRooms>1</NroOfRooms>
+				<!-- LET OP: Hieronder staat NrOfLivingRooms dit is het totale aantal kamers! Als de makelaar met slaapkamers werkt dan dient men automatisch altijd het getal 1 op te tellen bij het aantal slaapkamers ten einde tot het totale aantal kamers te komen.
+BIJV: makelaarswebsite aantal slaapkamers=3 DAN aantal kamers=3+1=4 -->
+  				<NroOfLivingRooms>4</NroOfLivingRooms>
+  <!-- LET OP: Dit veld wordt eigenlijk alleen ingevoerd door Projectontwikkelaars die hele projecten aanmelden. De projectnaam (bijvoorbeeld Het Schip) is veelal de naam van het wooncomplex met daarin verschillende woningtypen (zie volgende aan projectnaam toebehorende veld). Dit veld kunt u dus leeglaten. -->
+  				<Projectnaam>Het Schip</Projectnaam>
+<!-- LET OP: Dit veld behoort toe aan de Projectnaam en kan dus alleen worden ingevuld als er een projectnaam is opgegeven. Een woningtype binnen een project wordt veelal met een letter of letter nummer combinatie aangeduid zoals omschreven in de brochure (bijvoorbeeld C 12).  -->
+  				<WoningtypeInProject>C 12</WoningtypeInProject>
+				<!-- Per wanneer is de woning beschikbaar? 
+					LET OP: format YYYY-MM-DD  -->
+				<Available>2006-02-14</Available>
+				<!-- LET OP: Elk adres behoudt net als het opgegeven ID altijd dezelfde insert date, ook na het aanpassen van een prijs of ander item.
+				LET OP: format YYYY-MM-DD  -->
+				<insertDate>2006-02-14</insertDate>
+				<!-- Omschrijving  -->
+				<description_nl><![CDATA[<P>Default Nederlandse omschrijving (vrije tekst) hier plaatsen, HTML OK</P>]]></description_nl>
+				<!-- Vertalingen zijn optioneel  -->
+				<!-- FRANS  -->
+				<description_fr><![CDATA[]]></description_fr>
+				<!-- ENGELS  -->
+				<description_en><![CDATA[]]></description_en>
+				<!-- DUITS  -->
+				<description_de><![CDATA[]]></description_de>
+				<!-- SPAANS  -->
+				<description_es><![CDATA[]]></description_es>
+				<!-- ITALIAANS  -->
+				<description_it><![CDATA[]]></description_it>
+				<photos>
+					<!-- JPG en PNG. De maximale grootte van foto’s, is 2MB, een absolute URL  -->
+					<photo>http://www.site.com/photo123.jpg</photo>
+					<photo>http://www.site.com/photo3.jpg</photo>
+					<photo>http://www.site.com/photo5.jpg</photo>
+					<photo>http://www.site.com/photo12.jpg</photo>
+					<photo>http://www.site.com/photo1.jpg</photo>
+				</photos>
+				
+				<!--LET OP: Als foto’s zijn aangepast, dient dit eenmalig als volgt te worden weergegeven: 
+				<updatePhotos>1</updatePhotos>
+De volgende dag dient dit veld weer op ‘0’ te worden gezet. Met andere woorden; het veld staat standaard op ‘0’ en alleen op het moment dat de foto’s zijn aangepast, moet dit eenmalig met een ‘1’ worden weergegeven!
+ 				0=nee 1=ja -->
+				<updatePhotos>0</updatePhotos>	
+				<!-- URL naar brochure pdf -->
+				<brochure>http://www.site.com/brochure.pdf</brochure>
+				<!-- URL naar plattegrond pdf -->
+                                <plattegrond>http://www.site.com/plattegrond.pdf</plattegrond>
+				<!-- Vierkante meters is een verplicht veld	-->	
+				<size_m2>100</size_m2>
+				<!-- Aantal badkamers 	-->	
+				<numberOfBathrooms>2</numberOfBathrooms>
+				<!-- Maximale huurtermijn (hoeveel maanden wil de eigenaar maximaal verhuren? 6 maanden in onderstaand voorbeeld) Als deze optie niet aangeleverd kan worden is het verstandig om niets op te geven. Dit veld leeglaten betekent namelijk: in overleg -->
+				<contractLentgh_months>6</contractLentgh_months>
+				<!-- Minimale huurtermijn (hoeveel maanden wil de eigenaar minimal verhuren) 3 maanden in onderstaand voorbeeld) Als deze optie niet aangeleverd kan worden is het verstandig om niets op te geven. Dit veld leeglaten betekent namelijk: in overleg -->
+				<minContractLentgh_months>3</minContractLentgh_months>
+				<!-- Bouwjaar  	-->	
+				<buildYear>1910</buildYear>
+				<!--Parkeergelegenheid  0=nee 1=ja-->
+				<Parking>0</Parking>
+				<!-- Ligbad 0=nee 1=ja-->
+				<bath>0</bath>
+				<!-- Aparte douche: 0=nee 1=ja    -->
+				<separateShower>0</separateShower>
+				<!-- Aparte toilet: 0=nee 1=ja    -->
+                                <separateToilet>0</separateToilet>
+				<!-- Lift 0=nee 1=ja  2=geen voorkeur (2 gebruiken als dit veld niet kan worden ingevuld)  -->
+				<lift>0</lift>
+				<!--Tuin 0=nee 1=ja -->
+				<garden>0</garden>
+				<!-- N=Noord – O=Oost – Z=Zuid – W=West- NO=Noord Oost – NW=Noord West – ZO=Zuid Oost – ZW=Zuid West -->
+				<gardenLigging>ZW</gardenLigging>
+				<!-- Aantal vierkante meter van de tuin -->
+				<gardenSizeM2>0</gardenSizeM2>
+				<!-- Dakterras 0=nee 1=ja -->
+				<roofTerrass>0</roofTerrass>
+				<!-- N=Noord – O=Oost – Z=Zuid – W=West- NO=Noord Oost – NW=Noord West – ZO=Zuid Oost – ZW=Zuid West -->
+				<roofTerrassLigging>ZW</roofTerrassLigging>
+				<!-- Aantal vierkante meter van het dakterras -->
+				<roofTerrassSizeM2>0</roofTerrassSizeM2>
+				<!-- Balkon  0=nee 1=ja -->
+				<balcony>0</balcony>
+				<!-- N=Noord – O=Oost – Z=Zuid – W=West- NO=Noord Oost – NW=Noord West – ZO=Zuid Oost – ZW=Zuid West -->
+				<BalconyLigging>ZW</BalconyLigging>
+				<!-- Aantal vierkante meter van het balkon -->
+				<BalconySizeM2>0</BalconySizeM2>
+				<swimmingPool>0</swimmingPool>
+				<!-- Airconditioning 0=nee 1=ja -->
+				<airConditioning>0</airConditioning>
+				<!-- Open haard 0=nee 1=ja  -->
+				<firePlace>0</firePlace>
+				<!-- 0=nee 1=ja  -->
+				<garage>0</garage>
+				<!-- 0=nee 1=ja  -->
+				<cellar>0</cellar>
+				<!-- 0=Geen voorkeur 2=Slecht 3=Middelmatig 4=Goed -->
+				<publicTransportQualityID>0</publicTransportQualityID>
+				<!-- LET OP: Zoal hierboven reeds gemeld. Met dit veld kan worden aangegeven het opgegeven huisnummer wel of niet te tonen aan bezoekers van de website. 0=niet tonen 1=tonen  -->
+				<showhouseNumber>1</showhouseNumber>
+				<!-- Begane grond aanwezig in de woning 0=nee tonen 1=ja 3=geen voorkeur (3 gebruiken als dit veld niet kan worden doorgegeven)  -->
+				<groundFloor>0</groundFloor>
+				<!-- Soort vloer: waarde 0000000=geen voorkeur, waarde 0100000=hout, waarde 0010000=laminaat, waarde 0001000=kunststof, waarde 0000100=tegelvloer, waarde 0000010=tapijt, waarde 0000001=kaal  -->
+				<floorQuality>0000000</floorQuality>
+				<!--De huur kan inclusief de volgende warden zijn: 1xxxxx=Gas  x1xxxx=Water xx1xxx=Electra xxx1xx=Televisie xxxx1x=Internet xxxxx1=Service Kosten, 
+				BIJV: 101000=Gas+Electra OF 000111=Televisie+Internet+Service Kosten-->
+				<rentIncluded>000000</rentIncluded>
+				<!-- Doorplaatsingen naar andere websites is geregeld door de agents' xml preferences. -->
+			</item>
+		</items>
+	</member>
+</housing>
