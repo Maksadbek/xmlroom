@@ -2,23 +2,25 @@ package main
 
 import (
 	"encoding/xml"
-	"io/ioutil"
 	"log"
+	"os"
 
 	"github.com/Maksadbek/xmlroom/models"
 )
 
 func main() {
 	log.Println("starting...")
-	b, err := ioutil.ReadFile("./testdata/challenge.xml")
+	// open file
+	f, err := os.Open("./testdata/challenge.xml")
 	if err != nil {
-		log.Println(err)
+		log.Fatal(err)
 	}
+	dec := xml.NewDecoder(f)
 	housing := models.Housing{}
-	err = xml.Unmarshal(b, &housing)
+	err = dec.Decode(&housing)
 	if err != nil {
-		log.Println(err)
+		log.Fatal(err)
 	}
 
-	log.Printf("%+v\n", housing)
+	log.Printf("%+v\n", housing.Member.Items[0].RentIncluded)
 }
