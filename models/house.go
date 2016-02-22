@@ -19,71 +19,113 @@ type Date time.Time
 type NullInt int
 
 // House Type legends:
-// 1=Woonhuis, 2=Appartement
-// 3=Garage, 4=Kamer
-// 5=Villa, 6=Woonboot
-// 7=Studio, 8=Seniorenwoning
+// 1=Woonhuis
+// 2=Appartement
+// 3=Garage
+// 4=Kamer
+// 5=Villa
+// 6=Woonboot
+// 7=Studio
+// 8=Seniorenwoning
 type HouseType string
 
 // Location status legends
 // garden,roof and terrass has such types:
-// N=Noord, O=Oost, Z=Zuid, W=West, NO=Noord Oost
-// NW=Noord West, ZO=Zuid Oost, ZW=Zuid West
+// N=Noord,
+// O=Oost,
+// Z=Zuid,
+// W=West,
+// NO=Noord Oost
+// ZO=Zuid Oost,
+// NW=Noord West,
+// ZW=Zuid West
 type Loc string
 
 // Public Transport quality status legends:
-// 0=Geen voorkeur, 2=Slecht, 3=Middelmatig, 4=Goed
+// 0=Geen voorkeur
+// 2=Slecht
+// 3=Middelmatig
+// 4=Goed
 type PTQuality string
 
-// 0=nee tonen, 1=ja, 3=geen voorkeur
+// 0=nee tonen
+// 1=ja
+// 3=geen voorkeur
 type Preference string
 
 // Estate owner status legends
-// 1 = wekelijks, 2= maandelijks
+// 1 = wekelijks
+// 2= maandelijks
 type Period string
 
-// House
+// 0100000=32 =hout
+// 0010000=16 =laminaat
+// 0001000=8  =kunststof
+// 0000100=4  =tegelvloer
+// 0000010=2  =tapijt
+// 0000001=1  =kaal
+// 0000000=0  =geen voorkeur
+type FQuality string
+
+// 1xxxxx=Gas,
+// x1xxxx=Water
+// xx1xxx=Electra
+// xxx1xx=Televisie
+// xxxx1x=Internet
+// xxxxx1=Service Kosten
+type RentStatus string
+
+// House room
 type Item struct {
-	ID                 string    `xml:"uniqueobjectid"`
-	Street             string    `xml:"street"`
-	HouseNumber        string    `xml:",cdata"`
-	HouseNumAdd        string    `xml:"houseNumberAddtion"`
-	PostCode           string    `xml:"postalCode"`
-	City               string    `xml:"City"`
-	SubArea            string    `xml:"SubArea"`
-	Type               HouseType `xml:"houseType"`
-	Tenant             NullInt   `xml:"tenant"`
-	EstateOwner        string    `xml:"estateOwner"`
-	Stats              Period    `xml:"stats"`
-	Furnished          bool      `xml:"furnished"`
-	MinPrice           string    `xml:",cdata"`
-	HidePrice          bool      `xml:"hideprice"`
-	NrOfRooms          NullInt   `xml:"NrOfRooms"`
-	NrOfLivingRooms    NullInt   `xml:"NrOfLivingRooms"`
-	ProjectName        string    `xml:"Projectnaam"`
-	HouseTypeInProject string    `xml:"WoningtypeInProject"`
-	Available          Date      `xml:"Available"`
-	InsertDate         Date      `xml:"insertDate"`
-	DescriptionNL      string    `xml:",cdata"`
-	DescriptionFR      string    `xml:",cdata"`
-	DescriptionEN      string    `xml:"description_en"`
-	DescriptionDE      string    `xml:"description_de"`
-	DescriptionES      string    `xml:"description_es"`
-	DescriptionIT      string    `xml:"description_it"`
-	Photos             []string  `xml: "photos>photo"`
-	UpdatePhotos       bool      `xml: "updatePhotos"`
-	BrochureURL        string    `xml: "brochure"`
-	PlanURL            string    `xml:"plattegrond"`
-	Area               NullInt   `xml:"size_m2"`
-	NrOfBathrooms      NullInt   `xml:"numberOfBathrooms"`
-	ContractLength     NullInt   `xml:"contractLentgh_months"`
-	MinContractLength  NullInt   `xml:"minContractLentgh"`
-	BuildYear          string    `xml:"buildYear"`
-	Parking            bool      `xml:"Paring"`
-	Bath               bool      `xml:"bath"`
-	SeparateShower     bool      `xml:"separateShower"`
-	SeparateToilet     bool      `xml:"separateToilet"`
-	Lift               bool      `xml:"lift"`
+	ID                 string   `xml:"uniqueobjectid"`
+	Street             string   `xml:"street"`
+	HouseNumber        string   `xml:",cdata"`
+	HouseNumAdd        string   `xml:"houseNumberAddtion"`
+	PostCode           string   `xml:"postalCode"`
+	City               string   `xml:"City"`
+	SubArea            string   `xml:"SubArea"`
+	EstateOwner        string   `xml:"estateOwner"`
+	MinPrice           string   `xml:",cdata"`
+	ProjectName        string   `xml:"Projectnaam"`
+	HouseTypeInProject string   `xml:"WoningtypeInProject"`
+	DescriptionNL      string   `xml:",cdata"`
+	DescriptionFR      string   `xml:",cdata"`
+	DescriptionEN      string   `xml:"description_en"`
+	DescriptionDE      string   `xml:"description_de"`
+	DescriptionES      string   `xml:"description_es"`
+	DescriptionIT      string   `xml:"description_it"`
+	BrochureURL        string   `xml: "brochure"`
+	PlanURL            string   `xml:"plattegrond"`
+	BuildYear          string   `xml:"buildYear"`
+	Furnished          bool     `xml:"furnished"`
+	HidePrice          bool     `xml:"hideprice"`
+	UpdatePhotos       bool     `xml: "updatePhotos"`
+	Parking            bool     `xml:"Paring"`
+	Bath               bool     `xml:"bath"`
+	SeparateShower     bool     `xml:"separateShower"`
+	SeparateToilet     bool     `xml:"separateToilet"`
+	Lift               bool     `xml:"lift"`
+	SwimmingPool       bool     `xml:"swimmingPool"`
+	AirConditioning    bool     `xml:"airConditioning"`
+	FirePlace          bool     `xml:"firePlace"`
+	Garage             bool     `xml:"garage"`
+	Cellar             bool     `xml:"cellar"`
+	ShowHouseNum       bool     `xml:"showhouseNumber"`
+	Photos             []string `xml: "photos>photo"`
+
+	Tenant            NullInt    `xml:"tenant"`
+	Area              NullInt    `xml:"size_m2"`
+	NrOfBathrooms     NullInt    `xml:"numberOfBathrooms"`
+	ContractLength    NullInt    `xml:"contractLentgh_months"`
+	MinContractLength NullInt    `xml:"minContractLentgh"`
+	NrOfRooms         NullInt    `xml:"NrOfRooms"`
+	NrOfLivingRooms   NullInt    `xml:"NrOfLivingRooms"`
+	Stats             Period     `xml:"stats"`
+	Available         Date       `xml:"Available"`
+	InsertDate        Date       `xml:"insertDate"`
+	Type              HouseType  `xml:"houseType"`
+	PTQuality         PTQuality  `xml:"publicTransportQualityID"`
+	GroundFloor       Preference `xml:"groundFloor"`
 
 	Garden     bool    `xml:"garden"`
 	GardenLoc  Loc     `xml:"gardenLigging"`
@@ -97,27 +139,13 @@ type Item struct {
 	BalconyLoc  Loc     `xml:"BalconyLigging"`
 	BalconyArea NullInt `xml:"BaclconySizeM2"`
 
-	SwimmingPool    bool      `xml:"swimmingPool"`
-	AirConditioning bool      `xml:"airConditioning"`
-	FirePlace       bool      `xml:"firePlace"`
-	Garage          bool      `xml:"garage"`
-	Cellar          bool      `xml:"cellar"`
-	PTQuality       PTQuality `xml:"publicTransportQualityID"`
-	// 0=niet tonen, 1=tonen
-	ShowHouseNum bool `xml:"showhouseNumber"`
-	// 0=nee tonen, 1=ja, 3=geen voorkeur
-	GroundFloor Preference `xml:"groundFloor"`
+	FloorQuality FQuality `xml:"floorQuality"`
 
-	// 0000000=geen voorkeur, 0100000=hout, 0010000=laminaat,
-	// 0001000=kunststof,0000100=tegelvloer,0000010=tapijt,
-	// 0000001=kaal
-	FloorQuality string `xml:"floorQuality"`
-	// 1xxxxx=Gas,x1xxxx=Water,xx1xxx=Electra
-	// xxx1xx=Televisie xxxx1x=Internet xxxxx1=Service Kosten
-	RentIncluded string `xml:"rentIncluded"`
+	RentIncluded RentStatus `xml:"rentIncluded"`
 }
 
 func (d *Date) UnmarshalXML(dec *xml.Decoder, start xml.StartElement) error {
+	// input time format
 	const form = "2006-01-02"
 	var val string
 	dec.DecodeElement(&val, &start)
@@ -240,6 +268,38 @@ func (p *Period) UnmarshalXML(dec *xml.Decoder, start xml.StartElement) error {
 		*p = Period("maandelijks")
 	default:
 		*p = Period("")
+	}
+	return nil
+}
+
+func (q *FQuality) UnmarshalXML(dec *xml.Decoder, start xml.StartElement) error {
+	var val string
+	dec.DecodeElement(&val, &start)
+	if val == "" {
+		*q = ""
+		return nil
+	}
+	statusCode, err := strconv.ParseInt(val, 2, 64)
+	if err != nil {
+		return err
+	}
+	switch statusCode {
+	case 0:
+		*q = FQuality("geen voorkeur")
+	case 1:
+		*q = FQuality("kaal")
+	case 2:
+		*q = FQuality("tapijt")
+	case 4:
+		*q = FQuality("tegelvloer")
+	case 8:
+		*q = FQuality("kunststof")
+	case 16:
+		*q = FQuality("laminaat")
+	case 32:
+		*q = FQuality("hout")
+	default:
+		*q = FQuality("")
 	}
 	return nil
 }
