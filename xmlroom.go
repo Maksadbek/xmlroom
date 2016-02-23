@@ -25,6 +25,8 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+
+	// decode xml
 	dec := xml.NewDecoder(f)
 	housing := models.Housing{}
 	err = dec.Decode(&housing)
@@ -32,9 +34,9 @@ func main() {
 		log.Fatal(err)
 	}
 
-	err = datastore.Create(housing.Member.Items[0])
+	// insert data
+	err = datastore.CreateMemberWithItems(housing.Member)
 	if err != nil {
 		log.Fatal(err)
 	}
-	log.Printf("%+v\n", housing.Member.Items[0].RentIncluded)
 }
