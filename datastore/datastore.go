@@ -27,13 +27,23 @@ func Init(dbFile string) (err error) {
 }
 
 func CreateTables() error {
+	log.Println("creating tables...")
 	_, err := db.Exec(createItemsTableQuery)
+	if err != nil {
+		return err
+	}
+	_, err = db.Exec(createMembersTableQuery)
+	if err != nil {
+		return err
+	}
+	_, err = db.Exec(createMemberItemsTableQuery)
 	if err != nil {
 		return err
 	}
 	return nil
 }
-func Create(item models.Item) error {
+
+func CreateItem(item models.Item) error {
 	photos, err := json.Marshal(item.Photos)
 	if err != nil {
 		return err
@@ -101,6 +111,24 @@ func Create(item models.Item) error {
 	)
 	if err != nil {
 		return err
+	}
+	return nil
+}
+
+func CreateMemberWithItems(member models.Member) error {
+	// create member
+	if _, err := db.Exec(createMemberQuery, member.EstateAgentID); err != nil {
+		return err
+	}
+
+	for _, item := range member.Items {
+		if err := CreateItem(item); err != nil {
+			return err
+		}
+		_, err := db.Exec(createMemberItemsQuery, member.EstateAgentID, item.ID)
+		if err != nil {
+			return err
+		}
 	}
 	return nil
 }

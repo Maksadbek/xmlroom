@@ -133,3 +133,39 @@ var createItemsTableQuery string = `
 		rent_included text	
 	)
 `
+
+var createMembersTableQuery string = `
+	create table if not exists members(
+		id integer primary key autoincrement,
+		agent_id integer
+	)
+`
+var createMemberItemsTableQuery string = `
+	create table if not exists member_items (
+		id integer primary key autoincrement,
+		agent_id integer,
+		item_id text,
+		foreign key(agent_id) references member(agent_id),
+		foreign key(item_id) references items(id)
+	)
+`
+
+var createMemberQuery string = `
+	insert into members(
+		agent_id
+	) 
+	values (
+		?
+	)
+`
+
+var createMemberItemsQuery string = `
+	insert into member_items(
+		agent_id,
+		item_id
+	) 
+	values(
+		?,
+		?
+	)
+`
