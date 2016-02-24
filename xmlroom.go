@@ -13,6 +13,7 @@ import (
 	"github.com/Maksadbek/xmlroom/models"
 )
 
+// control flags
 var (
 	dbFilePath = flag.String("db", "./db", "database file path")
 	port       = flag.String("port", ":8080", "server port")
@@ -21,6 +22,7 @@ var (
 func main() {
 	flag.Parse()
 	log.Println("starting...")
+	// connect to datastore
 	err := datastore.Init(*dbFilePath)
 	if err != nil {
 		log.Fatal(err)
@@ -45,15 +47,18 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	// serve HTTP web server
 	http.HandleFunc("/", IndexHandler)
 	http.ListenAndServe(*port, nil)
 }
 
 func IndexHandler(w http.ResponseWriter, r *http.Request) {
+	// get all data from datastore
 	housing, err := datastore.ReadAll()
 	if err != nil {
 		log.Fatal(err)
 	}
+	// marshal to JSON
 	jsonResp, err := json.Marshal(housing)
 	if err != nil {
 		log.Fatal(err)

@@ -7,17 +7,24 @@ import (
 	"time"
 )
 
-const form = "2006-01-02"
+// the time form to convert
+const FORM = "2006-01-02"
 
+// member structure
 type Member struct {
 	Items         []Item `xml:"items>item"`
 	EstateAgentID int    `xml:"estateAgentID"`
 }
+
+// the parent structure
 type Housing struct {
 	XMLName xml.Name `xml:"housing" json:"-"`
 	Member  []Member `xml:"member"`
 }
 
+// Custom type for custom XML, JSON marshalling
+
+// Date time type can be used to customize time to JSON and XML marshalling
 type Date time.Time
 type NullInt int
 
@@ -151,7 +158,7 @@ func (d *Date) UnmarshalXML(dec *xml.Decoder, start xml.StartElement) error {
 	// input time format
 	var val string
 	dec.DecodeElement(&val, &start)
-	parse, err := time.Parse(form, val)
+	parse, err := time.Parse(FORM, val)
 	if err != nil {
 		return err
 	}
@@ -160,7 +167,8 @@ func (d *Date) UnmarshalXML(dec *xml.Decoder, start xml.StartElement) error {
 }
 
 func (d *Date) MarshalJSON() ([]byte, error) {
-	t := time.Time(*d).Format(form)
+	// get string format of time by required form
+	t := time.Time(*d).Format(FORM)
 	return json.Marshal(t)
 
 }

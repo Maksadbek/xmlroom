@@ -13,6 +13,7 @@ import (
 
 var db *sql.DB
 
+// Init function can be used to connect to datastore and create tables
 func Init(dbFile string) (err error) {
 	log.Println("initializing datastore...")
 	db, err = sql.Open("sqlite3", dbFile)
@@ -26,6 +27,7 @@ func Init(dbFile string) (err error) {
 	return
 }
 
+// CreteTables is used to migrate database and create the tables
 func CreateTables() error {
 	log.Println("creating tables...")
 	_, err := db.Exec(createItemsTableQuery)
@@ -43,7 +45,10 @@ func CreateTables() error {
 	return nil
 }
 
+// CreateItem is used to insert Item data to datastore
 func CreateItem(item models.Item) error {
+	// photos is string array, and kept in json format
+	// unmarshal photos
 	photos, err := json.Marshal(item.Photos)
 	if err != nil {
 		return err
@@ -115,8 +120,9 @@ func CreateItem(item models.Item) error {
 	return nil
 }
 
+// CreateMemberWithItems can be used to insert members data to database
 func CreateMemberWithItems(members []models.Member) error {
-	// create member items
+	// range over members and its items
 	for _, m := range members {
 		if _, err := db.Exec(createMemberQuery, m.EstateAgentID); err != nil {
 			return err
@@ -135,6 +141,7 @@ func CreateMemberWithItems(members []models.Member) error {
 	return nil
 }
 
+// ReadItemsByMember is used to get member items(rooms) by its ID number
 func ReadItemsByMember(id int) ([]models.Item, error) {
 	items := []models.Item{}
 
@@ -144,6 +151,9 @@ func ReadItemsByMember(id int) ([]models.Item, error) {
 	}
 	for rows.Next() {
 		item := models.Item{}
+		// variables with standard Go types to be able to scan them
+		// sql.Scan works only this standard types
+		// after scan all of them are converted to custom types
 		var (
 			tenant, area, nrOfBathrooms, balconyArea,
 			contractLen, nrOfRooms, nrOfLivingRooms,
@@ -222,6 +232,7 @@ func ReadItemsByMember(id int) ([]models.Item, error) {
 			return items, err
 		}
 
+		// converting to custom types
 		item.Tenant = models.NullInt(tenant)
 		item.Area = models.NullInt(area)
 		item.NrOfBathrooms = models.NullInt(nrOfBathrooms)
@@ -253,6 +264,9 @@ func ReadItemsByMember(id int) ([]models.Item, error) {
 	return items, nil
 }
 
+// ReadAall reads all member items from database
+// it firstly gets all member its ids and then
+// reads its items by its id
 func ReadAll() (models.Housing, error) {
 	housing := models.Housing{}
 	rows, err := db.Query(readAllMembersQuery)
