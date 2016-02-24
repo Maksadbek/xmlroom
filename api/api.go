@@ -26,12 +26,15 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 	// get all data from datastore
 	housing, err := datastore.ReadAll()
 	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
 		log.Fatal(err)
 	}
 	// marshal to JSON
 	jsonResp, err := json.Marshal(housing)
 	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
 		log.Fatal(err)
 	}
+	w.Header().Set("Content-type", "application/json")
 	fmt.Fprintf(w, string(jsonResp))
 }
