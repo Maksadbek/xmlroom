@@ -1,14 +1,12 @@
 package main
 
 import (
-	"encoding/json"
 	"encoding/xml"
 	"flag"
-	"fmt"
 	"log"
-	"net/http"
 	"os"
 
+	"github.com/Maksadbek/xmlroom/api"
 	"github.com/Maksadbek/xmlroom/datastore"
 	"github.com/Maksadbek/xmlroom/models"
 )
@@ -30,6 +28,7 @@ func main() {
 	}
 
 	if *migrate {
+		log.Println("starting migration to database")
 		// open file
 		f, err := os.Open("./testdata/challenge.xml")
 		if err != nil {
@@ -49,22 +48,8 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
+		log.Println("successfully migrated data to database")
 	}
-	// serve HTTP web server
-	http.HandleFunc("/", IndexHandler)
-	http.ListenAndServe(*port, nil)
-}
 
-func IndexHandler(w http.ResponseWriter, r *http.Request) {
-	// get all data from datastore
-	housing, err := datastore.ReadAll()
-	if err != nil {
-		log.Fatal(err)
-	}
-	// marshal to JSON
-	jsonResp, err := json.Marshal(housing)
-	if err != nil {
-		log.Fatal(err)
-	}
-	fmt.Fprintf(w, string(jsonResp))
+	api.Serve(*port)
 }

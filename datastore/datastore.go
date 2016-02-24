@@ -24,7 +24,8 @@ func Init(dbFile string) (err error) {
 	if err != nil {
 		return err
 	}
-	return
+	log.Println("successfully initialized datastore")
+	return nil
 }
 
 // CreteTables is used to migrate database and create the tables
@@ -42,6 +43,7 @@ func CreateTables() error {
 	if err != nil {
 		return err
 	}
+	log.Println("successfully created tables")
 	return nil
 }
 
