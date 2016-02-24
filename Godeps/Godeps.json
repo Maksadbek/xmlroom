@@ -1,5 +1,11 @@
 {
 	"ImportPath": "github.com/Maksadbek/xmlroom",
 	"GoVersion": "go1.5",
-	"Deps": []
+	"Deps": [
+		{
+			"ImportPath": "github.com/mattn/go-sqlite3",
+			"Comment": "v1.1.0-40-g09d5c45",
+			"Rev": "09d5c451710ef887470709463f4f04ff83e1e039"
+		}
+	]
 }
