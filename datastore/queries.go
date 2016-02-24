@@ -241,6 +241,6 @@ var readItemsByMemberQuery string = `
 		on mi.agent_id = m.agent_id
 `
 
-var readAllMembers = `
+var readAllMembersQuery = `
 	select agent_id from members
 `

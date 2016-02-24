@@ -15,7 +15,7 @@ type Member struct {
 }
 type Housing struct {
 	XMLName xml.Name `xml:"housing" json:"-"`
-	Member  Member   `xml:"member"`
+	Member  []Member `xml:"member"`
 }
 
 type Date time.Time

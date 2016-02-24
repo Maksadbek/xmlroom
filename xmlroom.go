@@ -8,7 +8,6 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"strconv"
 
 	"github.com/Maksadbek/xmlroom/datastore"
 	"github.com/Maksadbek/xmlroom/models"
@@ -51,22 +50,13 @@ func main() {
 }
 
 func IndexHandler(w http.ResponseWriter, r *http.Request) {
-	m := r.URL.Query().Get("m")
-	log.Println(m)
-	memberID, err := strconv.Atoi(m)
-	if err != nil {
-		http.Error(w, "please provide member id", http.StatusBadRequest)
-	}
-	house := models.Housing{}
-	items, err := datastore.ReadItemsByMember(memberID)
+	housing, err := datastore.ReadAll()
 	if err != nil {
 		log.Fatal(err)
 	}
-	house.Member.EstateAgentID = memberID
-	house.Member.Items = items
-	itemsJ, err := json.Marshal(house)
+	jsonResp, err := json.Marshal(housing)
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Fprintf(w, string(itemsJ))
+	fmt.Fprintf(w, string(jsonResp))
 }

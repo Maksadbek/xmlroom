@@ -115,19 +115,21 @@ func CreateItem(item models.Item) error {
 	return nil
 }
 
-func CreateMemberWithItems(member models.Member) error {
-	// create member
-	if _, err := db.Exec(createMemberQuery, member.EstateAgentID); err != nil {
-		return err
-	}
-
-	for _, item := range member.Items {
-		if err := CreateItem(item); err != nil {
+func CreateMemberWithItems(members []models.Member) error {
+	// create member items
+	for _, m := range members {
+		if _, err := db.Exec(createMemberQuery, m.EstateAgentID); err != nil {
 			return err
 		}
-		_, err := db.Exec(createMemberItemsQuery, member.EstateAgentID, item.ID)
-		if err != nil {
-			return err
+
+		for _, item := range m.Items {
+			if err := CreateItem(item); err != nil {
+				return err
+			}
+			_, err := db.Exec(createMemberItemsQuery, m.EstateAgentID, item.ID)
+			if err != nil {
+				return err
+			}
 		}
 	}
 	return nil
@@ -251,20 +253,31 @@ func ReadItemsByMember(id int) ([]models.Item, error) {
 	return items, nil
 }
 
-func ReadAll() ([]models.Member, error) {
-	members := []models.Member{}
+func ReadAll() (models.Housing, error) {
+	housing := models.Housing{}
 	rows, err := db.Query(readAllMembersQuery)
 	if err != nil {
-		return members, err
+		return housing, err
 	}
 
-	ids := []int{}
 	for rows.Next() {
-		var m int
-		err = rows.Scan(&m)
+		var (
+			id     int
+			member models.Member
+		)
+		err = rows.Scan(&id)
 		if err != nil {
-			return members, err
+			return housing, err
 		}
-		ids = append(ids, m)
+
+		member.EstateAgentID = id
+		i, err := ReadItemsByMember(id)
+		if err != nil {
+			return housing, err
+		}
+		member.Items = i
+		housing.Member = append(housing.Member, member)
 	}
+
+	return housing, nil
 }
