@@ -1,17 +1,20 @@
 package models
 
 import (
+	"encoding/json"
 	"encoding/xml"
 	"strconv"
 	"time"
 )
+
+const form = "2006-01-02"
 
 type Member struct {
 	Items         []Item `xml:"items>item"`
 	EstateAgentID int    `xml:"estateAgentID"`
 }
 type Housing struct {
-	XMLName xml.Name `xml:"housing"`
+	XMLName xml.Name `xml:"housing" json:"-"`
 	Member  Member   `xml:"member"`
 }
 
@@ -111,7 +114,7 @@ type Item struct {
 	Garage             bool     `xml:"garage"`
 	Cellar             bool     `xml:"cellar"`
 	ShowHouseNum       bool     `xml:"showhouseNumber"`
-	Photos             []string `xml: "photos>photo"`
+	Photos             []string `xml:"photos>photo"`
 
 	Tenant            NullInt    `xml:"tenant"`
 	Area              NullInt    `xml:"size_m2"`
@@ -146,7 +149,6 @@ type Item struct {
 
 func (d *Date) UnmarshalXML(dec *xml.Decoder, start xml.StartElement) error {
 	// input time format
-	const form = "2006-01-02"
 	var val string
 	dec.DecodeElement(&val, &start)
 	parse, err := time.Parse(form, val)
@@ -157,6 +159,11 @@ func (d *Date) UnmarshalXML(dec *xml.Decoder, start xml.StartElement) error {
 	return nil
 }
 
+func (d *Date) MarshalJSON() ([]byte, error) {
+	t := time.Time(*d).Format(form)
+	return json.Marshal(t)
+
+}
 func (n *NullInt) UnmarshalXML(dec *xml.Decoder, start xml.StartElement) error {
 	var val string
 	dec.DecodeElement(&val, &start)
