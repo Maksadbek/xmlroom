@@ -220,7 +220,6 @@ func ReadItemsByMember(id int) ([]models.Item, error) {
 			return items, err
 		}
 
-		log.Printf("%+v\n", dateAvailable)
 		item.Tenant = models.NullInt(tenant)
 		item.Area = models.NullInt(area)
 		item.NrOfBathrooms = models.NullInt(nrOfBathrooms)
@@ -243,6 +242,10 @@ func ReadItemsByMember(id int) ([]models.Item, error) {
 		item.FloorQuality = models.FQuality(floorQuality)
 		item.RentIncluded = models.RentStatus(rentIncluded)
 
+		err = json.Unmarshal([]byte(photos), &item.Photos)
+		if err != nil {
+			return items, err
+		}
 		items = append(items, item)
 	}
 	return items, nil
