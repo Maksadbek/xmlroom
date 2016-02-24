@@ -240,3 +240,7 @@ var readItemsByMemberQuery string = `
 	inner join members m
 		on mi.agent_id = m.agent_id
 `
+
+var readAllMembers = `
+	select agent_id from members
+`

@@ -250,3 +250,21 @@ func ReadItemsByMember(id int) ([]models.Item, error) {
 	}
 	return items, nil
 }
+
+func ReadAll() ([]models.Member, error) {
+	members := []models.Member{}
+	rows, err := db.Query(readAllMembersQuery)
+	if err != nil {
+		return members, err
+	}
+
+	ids := []int{}
+	for rows.Next() {
+		var m int
+		err = rows.Scan(&m)
+		if err != nil {
+			return members, err
+		}
+		ids = append(ids, m)
+	}
+}
