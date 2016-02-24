@@ -95,7 +95,7 @@ type Item struct {
 	City               string   `xml:"City"`
 	SubArea            string   `xml:"SubArea"`
 	EstateOwner        string   `xml:"estateOwner"`
-	MinPrice           string   `xml:",cdata"`
+	MinPrice           NullInt  `xml:",cdata"`
 	ProjectName        string   `xml:"Projectnaam"`
 	HouseTypeInProject string   `xml:"WoningtypeInProject"`
 	DescriptionNL      string   `xml:",cdata"`
