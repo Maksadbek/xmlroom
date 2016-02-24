@@ -17,6 +17,7 @@ import (
 var (
 	dbFilePath = flag.String("db", "./db", "database file path")
 	port       = flag.String("port", ":8080", "server port")
+	migrate    = flag.Bool("migrate", false, "migrate database")
 )
 
 func main() {
@@ -28,24 +29,26 @@ func main() {
 		log.Fatal(err)
 	}
 
-	// open file
-	f, err := os.Open("./testdata/challenge.xml")
-	if err != nil {
-		log.Fatal(err)
-	}
+	if *migrate {
+		// open file
+		f, err := os.Open("./testdata/challenge.xml")
+		if err != nil {
+			log.Fatal(err)
+		}
 
-	// decode xml
-	dec := xml.NewDecoder(f)
-	housing := models.Housing{}
-	err = dec.Decode(&housing)
-	if err != nil {
-		log.Fatal(err)
-	}
+		// decode xml
+		dec := xml.NewDecoder(f)
+		housing := models.Housing{}
+		err = dec.Decode(&housing)
+		if err != nil {
+			log.Fatal(err)
+		}
 
-	// insert data
-	err = datastore.CreateMemberWithItems(housing.Member)
-	if err != nil {
-		log.Fatal(err)
+		// insert data
+		err = datastore.CreateMemberWithItems(housing.Member)
+		if err != nil {
+			log.Fatal(err)
+		}
 	}
 	// serve HTTP web server
 	http.HandleFunc("/", IndexHandler)
