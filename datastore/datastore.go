@@ -132,3 +132,118 @@ func CreateMemberWithItems(member models.Member) error {
 	}
 	return nil
 }
+
+func ReadItemsByMember(id int) ([]models.Item, error) {
+	items := []models.Item{}
+
+	rows, err := db.Query(readItemsByMemberQuery, id)
+	if err != nil {
+		return items, err
+	}
+	for rows.Next() {
+		item := models.Item{}
+		var (
+			tenant, area, nrOfBathrooms, balconyArea,
+			contractLen, nrOfRooms, nrOfLivingRooms,
+			minContractLen int
+
+			dateAvailable, dateInsert time.Time
+
+			stats, hType, PTQuality, groundFloor,
+			gardenLoc, balconyLoc, roofTerrassLoc,
+			photos, floorQuality, rentIncluded string
+		)
+
+		err = rows.Scan(
+			&item.ID,
+			&item.Street,
+			&item.HouseNumber,
+			&item.HouseNumAdd,
+			&item.PostCode,
+			&item.City,
+			&item.SubArea,
+			&item.EstateOwner,
+			&item.MinPrice,
+			&item.ProjectName,
+			&item.HouseTypeInProject,
+			&item.DescriptionNL,
+			&item.DescriptionFR,
+			&item.DescriptionEN,
+			&item.DescriptionDE,
+			&item.DescriptionES,
+			&item.DescriptionIT,
+			&item.BrochureURL,
+			&item.PlanURL,
+			&item.BuildYear,
+			&item.Furnished,
+			&item.HidePrice,
+			&item.UpdatePhotos,
+			&item.Parking,
+			&item.Bath,
+			&item.SeparateShower,
+			&item.SeparateToilet,
+			&item.Lift,
+			&item.SwimmingPool,
+			&item.AirConditioning,
+			&item.FirePlace,
+			&item.Garage,
+			&item.Cellar,
+			&item.ShowHouseNum,
+			&photos,
+			&tenant,
+			&area,
+			&nrOfBathrooms,
+			&contractLen,
+			&minContractLen,
+			&nrOfRooms,
+			&nrOfLivingRooms,
+			&stats,
+			&dateAvailable,
+			&dateInsert,
+			&hType,
+			&PTQuality,
+			&groundFloor,
+			&item.Garden,
+			&gardenLoc,
+			&item.GardenArea,
+			&item.RoofTerrass,
+			&roofTerrassLoc,
+			&item.RoofTerrassArea,
+			&item.Balcony,
+			&balconyLoc,
+			&balconyArea,
+			&floorQuality,
+			&rentIncluded,
+		)
+
+		if err != nil {
+			return items, err
+		}
+
+		log.Printf("%+v\n", dateAvailable)
+		item.Tenant = models.NullInt(tenant)
+		item.Area = models.NullInt(area)
+		item.NrOfBathrooms = models.NullInt(nrOfBathrooms)
+		item.BalconyArea = models.NullInt(balconyArea)
+		item.ContractLength = models.NullInt(contractLen)
+		item.NrOfRooms = models.NullInt(nrOfRooms)
+		item.NrOfLivingRooms = models.NullInt(nrOfLivingRooms)
+		item.MinContractLength = models.NullInt(minContractLen)
+
+		item.Available = models.Date(dateAvailable)
+		item.InsertDate = models.Date(dateInsert)
+
+		item.Stats = models.Period(stats)
+		item.Type = models.HouseType(hType)
+		item.PTQuality = models.PTQuality(PTQuality)
+		item.GroundFloor = models.Preference(groundFloor)
+		item.GardenLoc = models.Loc(gardenLoc)
+		item.RoofTerrassLoc = models.Loc(roofTerrassLoc)
+		item.Stats = models.Period(stats)
+		item.FloorQuality = models.FQuality(floorQuality)
+		item.RentIncluded = models.RentStatus(rentIncluded)
+
+		items = append(items, item)
+	}
+	return items, nil
+}

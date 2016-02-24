@@ -41,6 +41,7 @@ var createItemQuery string = `
 		area ,
 		nr_of_bathrooms ,
 		contract_length ,
+		min_contract_length,
 		nr_of_rooms ,
 		nr_of_living_rooms ,
 		stats ,
@@ -67,7 +68,7 @@ var createItemQuery string = `
 		?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
 		?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
 		?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
-		?, ?, ?
+		?, ?, ?, ?
 	)
 `
 var createItemsTableQuery string = `
@@ -112,11 +113,12 @@ var createItemsTableQuery string = `
 		area integer,
 		nr_of_bathrooms integer,
 		contract_length integer,
+		min_contract_length integer,
 		nr_of_rooms integer,
 		nr_of_living_rooms integer,
 		stats text,
-		available numeric,
-		insert_date numeric,
+		available datetime,
+		insert_date datetime,
 		type text,
 		pt_quality text,
 		ground_floor text,
@@ -168,4 +170,73 @@ var createMemberItemsQuery string = `
 		?,
 		?
 	)
+`
+
+var readItemsByMemberQuery string = `
+	select 
+		i.id ,
+		i.street ,
+		i.house_number ,
+		i.house_number_add ,
+		i.post_code,
+		i.city,
+		i.sub_area ,
+		i.estate_owner ,
+		i.min_price ,
+		i.project_name ,
+		i.house_type_in_project ,
+		i.description_nl ,
+		i.description_fr ,
+		i.description_en ,
+		i.description_de ,
+		i.description_es ,
+		i.desctiption_it ,
+		i.brochure_url ,
+		i.plan_url ,
+		i.build_year ,
+		i.furnished ,
+		i.hide_price ,
+		i.update_photos ,
+		i.parking ,
+		i.bath ,
+		i.separate_shower ,
+		i.separate_toilet ,
+		i.lift ,
+		i.swimming_pool ,
+		i.air_conditioning ,
+		i.fire_place ,
+		i.garage ,
+		i.cellar ,
+		i.show_house_num ,
+		i.photos ,
+		i.tenant ,
+		i.area ,
+		i.nr_of_bathrooms ,
+		i.contract_length ,
+		i.min_contract_length,
+		i.nr_of_rooms ,
+		i.nr_of_living_rooms ,
+		i.stats ,
+		i.available ,
+		i.insert_date ,
+		i.type ,
+		i.pt_quality ,
+		i.ground_floor ,
+		i.garden ,
+		i.garden_loc ,
+		i.garden_area ,
+		i.roof_terrass ,
+		i.roof_terrass_loc ,
+		i.roof_terrass_area ,
+		i.balcony ,
+		i.balcony_loc ,
+		i.balcony_area ,
+		i.floor_quality ,
+		i.rent_included 
+	from items i
+	inner join member_items mi
+		on i.id = mi.item_id	
+		and mi.agent_id = ?
+	inner join members m
+		on mi.agent_id = m.agent_id
 `
